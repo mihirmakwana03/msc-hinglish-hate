@@ -3,6 +3,7 @@ from .loaders import (
     load_bohra,
     load_hasoc2021,
     load_hasoc2022,
+    load_hasoc2022_threads,
     build_corpus,
     filter_romanised,
 )
@@ -19,6 +20,7 @@ __all__ = [
     "load_bohra",
     "load_hasoc2021",
     "load_hasoc2022",
+    "load_hasoc2022_threads",
     "build_corpus",
     "filter_romanised",
     "build_pipeline",

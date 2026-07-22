@@ -51,6 +51,11 @@ def _to_binary(raw) -> int:
     return LABEL_MAP[key]
 
 
+# Bohra ships a few malformed label cells (documented: "n/on" for "no").
+# Normalise these instead of dropping the rows.
+_BOHRA_LABEL_FIXES = {"n/on": "no", "noo": "no", "n0": "no", "yess": "yes"}
+
+
 def _finish(rows, source: str) -> pd.DataFrame:
     df = pd.DataFrame(rows, columns=["text", "label"])
     df["text"] = df["text"].astype(str).str.strip()
@@ -63,9 +68,15 @@ def _finish(rows, source: str) -> pd.DataFrame:
 # --------------------------------------------------------------------------
 # Bohra 2018
 # --------------------------------------------------------------------------
-def load_bohra(path: str | Path) -> pd.DataFrame:
-    """Load hate_speech.tsv (headerless, tab-separated: text <TAB> yes|no)."""
+def load_bohra(path: str | Path, report: bool = True) -> pd.DataFrame:
+    """Load hate_speech.tsv (headerless, tab-separated: text <TAB> yes|no).
+
+    Fixes the documented `n/on` -> `no` label typo instead of discarding the
+    row, and reports how many labels were fixed and how many rows were dropped
+    as unparseable.
+    """
     rows = []
+    n_fixed = n_dropped = 0
     tail = re.compile(r"^(?P<text>.*\S)\s+(?P<label>yes|no)\s*$", re.IGNORECASE)
     with open(path, encoding="utf-8") as fh:
         for line in fh:
@@ -75,7 +86,10 @@ def load_bohra(path: str | Path) -> pd.DataFrame:
             text, label = None, None
             if "\t" in line:
                 *left, last = line.split("\t")
-                cand = last.strip().lower()
+                raw_cand = last.strip().lower()
+                cand = _BOHRA_LABEL_FIXES.get(raw_cand, raw_cand)
+                if cand != raw_cand:
+                    n_fixed += 1
                 if cand in ("yes", "no"):
                     text, label = "\t".join(left).strip(), cand
             if label is None:  # fallback: last whitespace token is the label
@@ -83,12 +97,16 @@ def load_bohra(path: str | Path) -> pd.DataFrame:
                 if m:
                     text, label = m.group("text").strip(), m.group("label").lower()
             if label is None:
-                # unparseable line - skip but keep count via the caller's validation
+                n_dropped += 1
                 continue
             rows.append((text, _to_binary(label)))
     if not rows:
         raise ValueError(f"No parseable rows in {path}. Check the file format.")
-    return _finish(rows, "bohra2018")
+    df = _finish(rows, "bohra2018")
+    if report:
+        print(f"[load_bohra] {len(df)} rows | fixed {n_fixed} label typo(s) | "
+              f"dropped {n_dropped} unparseable")
+    return df
 
 
 # --------------------------------------------------------------------------
@@ -158,6 +176,41 @@ def load_hasoc2022(path: str | Path) -> pd.DataFrame:
         for t, l in zip(df[cols["text"]], df[cols["label"]])
         if isinstance(t, str) and pd.notna(l)
     ]
+    return _finish(rows, "hasoc2022")
+
+
+def load_hasoc2022_threads(root: str | Path) -> pd.DataFrame:
+    """Load HASOC-2022 from per-tweet thread files, not final.csv.
+
+    Each thread folder holds data.json (recursive {tweet_id, tweet, comments,
+    replies}) and binary_labels.json ({tweet_id: "HOF"|"NOT"}). Returns one row
+    per tweet with its OWN text - single utterances comparable to Bohra, without
+    final.csv's accumulated thread context. Mirrors load_hasoc2021.
+    """
+    root = Path(root)
+    thread_dirs = {
+        p.parent
+        for p in root.rglob("binary_labels.json")
+        if (p.parent / "data.json").exists()
+    }
+    if not thread_dirs:
+        raise ValueError(
+            f"No data.json/binary_labels.json thread folders found under {root}."
+        )
+    rows = []
+    for d in sorted(thread_dirs):
+        with open(d / "data.json", encoding="utf-8") as fh:
+            data = json.load(fh)
+        with open(d / "binary_labels.json", encoding="utf-8") as fh:
+            labels = json.load(fh)
+        id2text = {}
+        _walk_thread(data, id2text)
+        for tid, lab in labels.items():
+            text = id2text.get(str(tid))
+            if text:
+                rows.append((text, _to_binary(lab)))
+    if not rows:
+        raise ValueError(f"Found thread folders under {root} but joined 0 rows.")
     return _finish(rows, "hasoc2022")
 
 
