@@ -49,21 +49,30 @@ def load_lexicon(csv_path: str | Path) -> list[str]:
 
 
 class LexiconCounter(BaseEstimator, TransformerMixin):
-    """Per-post lexicon features: raw match count and match ratio (per token)."""
+    """Per-post lexicon features: raw match count and match ratio (per token).
+
+    Note: sklearn's clone contract requires __init__ to store parameters
+    unmodified, so the set conversion happens in fit(), not here. Without this
+    the transformer cannot be used inside cross_val_score / GridSearchCV.
+    """
 
     def __init__(self, terms):
-        self.terms = set(terms)
+        self.terms = terms
 
     def fit(self, X, y=None):
+        self.terms_ = set(self.terms)
         return self
 
     def transform(self, X):
+        terms = getattr(self, "terms_", None)
+        if terms is None:
+            terms = set(self.terms)
         out = np.zeros((len(X), 2), dtype=float)
         for i, text in enumerate(X):
             toks = TOKEN.findall(clean_text(text))
             if not toks:
                 continue
-            hits = sum(1 for t in toks if t in self.terms)
+            hits = sum(1 for t in toks if t in terms)
             out[i, 0] = hits
             out[i, 1] = hits / len(toks)
         return out

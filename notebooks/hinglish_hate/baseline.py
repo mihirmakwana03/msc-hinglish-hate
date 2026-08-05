@@ -96,3 +96,69 @@ def summarise(name: str, res: dict) -> str:
         f"hate-F1 = {res['hate_f1']:.3f}   acc = {res['accuracy']:.3f}   "
         f"(train {res['n_train']}, test {res['n_test']})"
     )
+
+
+# --------------------------------------------------------------------------
+# Richer models: full feature union (word + char + lexicon) and alternatives
+# --------------------------------------------------------------------------
+from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
+from sklearn.model_selection import StratifiedKFold, cross_val_score
+from sklearn.svm import LinearSVC
+
+from .features import build_feature_union
+
+
+def build_full_pipeline(lexicon_terms, clf="logreg", C=1.0, class_weight="balanced",
+                        word_ngrams=(1, 2), char_ngrams=(3, 5), min_df=2) -> Pipeline:
+    """Word + char TF-IDF + lexicon counts -> classifier.
+
+    clf: 'logreg' (LogisticRegression) or 'svm' (LinearSVC).
+    class_weight: 'balanced' or None (pass None to show what imbalance costs).
+    """
+    if clf == "logreg":
+        model = LogisticRegression(max_iter=2000, C=C, class_weight=class_weight,
+                                   random_state=RANDOM_STATE)
+    elif clf == "svm":
+        model = LinearSVC(C=C, class_weight=class_weight, random_state=RANDOM_STATE)
+    else:
+        raise ValueError(f"Unknown clf: {clf!r}")
+    feats = build_feature_union(lexicon_terms, word_ngrams=word_ngrams,
+                                char_ngrams=char_ngrams, min_df=min_df)
+    return Pipeline([("features", feats), ("clf", model)])
+
+
+def full_metrics(y_true, y_pred) -> dict:
+    """Macro-F1, per-class precision/recall/F1, accuracy, confusion matrix."""
+    p, r, f, s = precision_recall_fscore_support(y_true, y_pred, zero_division=0)
+    return {
+        "macro_f1": f1_score(y_true, y_pred, average="macro"),
+        "hate_f1": f1_score(y_true, y_pred, pos_label=1, zero_division=0),
+        "accuracy": accuracy_score(y_true, y_pred),
+        "precision_not": p[0], "recall_not": r[0], "f1_not": f[0],
+        "precision_hate": p[1], "recall_hate": r[1], "f1_hate": f[1],
+        "confusion": confusion_matrix(y_true, y_pred),
+        "report": classification_report(y_true, y_pred, target_names=["not", "hate"],
+                                        zero_division=0, digits=3),
+    }
+
+
+def evaluate_pipeline(pipe, X_train, y_train, X_test, y_test) -> dict:
+    """Fit on train, score on test, return full metrics."""
+    pipe.fit(X_train, y_train)
+    out = full_metrics(y_test, pipe.predict(X_test))
+    out["n_train"], out["n_test"] = len(X_train), len(y_test)
+    out["pipeline"] = pipe
+    return out
+
+
+def cross_validate_macro_f1(pipe, X, y, n_splits: int = 5) -> dict:
+    """Stratified k-fold CV on macro-F1 -> mean and std across folds.
+
+    Hunter's instruction: report the within-dataset number as mean +/- std over
+    N=5 folds rather than a single split, so the headline figure carries a
+    measure of variance.
+    """
+    skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=RANDOM_STATE)
+    scores = cross_val_score(pipe, X, y, cv=skf, scoring="f1_macro")
+    return {"scores": scores, "mean": float(scores.mean()), "std": float(scores.std()),
+            "n_splits": n_splits}
