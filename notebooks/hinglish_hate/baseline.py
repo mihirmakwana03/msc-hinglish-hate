@@ -162,3 +162,76 @@ def cross_validate_macro_f1(pipe, X, y, n_splits: int = 5) -> dict:
     scores = cross_val_score(pipe, X, y, cv=skf, scoring="f1_macro")
     return {"scores": scores, "mean": float(scores.mean()), "std": float(scores.std()),
             "n_splits": n_splits}
+
+
+def stratified_kfold_evaluate(pipe_factory, X, y, n_splits: int = 5,
+                              random_state: int = RANDOM_STATE, verbose: bool = True):
+    """Stratified k-fold cross-validation with an explicit, inspectable fold loop.
+
+    Written as a visible loop rather than a cross_val_score call so every step
+    can be explained: shuffle, split into N folds, rotate which fold is held
+    out, train on (N-1)/N, test on 1/N, record metrics, repeat.
+
+    Stratified (rather than plain) k-fold keeps the hate/not ratio the same in
+    every fold, which matters because the data is imbalanced. shuffle=True with
+    a fixed random_state does the randomisation that page 1 describes: it
+    removes any ordering in the file (e.g. all hate rows together, or all rows
+    from one source together) before slicing, so no fold gets a biased chunk.
+
+    pipe_factory: a zero-argument callable returning a FRESH unfitted pipeline.
+                  A factory (not a single pipeline) guarantees each fold trains
+                  a model from scratch with no leakage between folds.
+
+    Returns (per_fold_dataframe, summary_dict) where summary has mean and std
+    for accuracy, precision, recall and macro-F1.
+    """
+    import numpy as _np
+    import pandas as _pd
+
+    X = list(X)
+    y = list(y)
+    skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
+
+    rows = []
+    for fold, (train_idx, test_idx) in enumerate(skf.split(X, y), start=1):
+        X_tr = [X[i] for i in train_idx]
+        y_tr = [y[i] for i in train_idx]
+        X_te = [X[i] for i in test_idx]
+        y_te = [y[i] for i in test_idx]
+
+        pipe = pipe_factory()          # fresh model for this fold
+        pipe.fit(X_tr, y_tr)           # train on (N-1)/N of the data
+        y_pred = pipe.predict(X_te)    # test on the held-out 1/N
+
+        p, r, f, _ = precision_recall_fscore_support(
+            y_te, y_pred, average="macro", zero_division=0)
+        rows.append({
+            "fold": fold,
+            "n_train": len(X_tr),
+            "n_test": len(X_te),
+            "test_hate_rate": round(float(_np.mean(y_te)), 3),
+            "accuracy": accuracy_score(y_te, y_pred),
+            "precision_macro": p,
+            "recall_macro": r,
+            "macro_f1": f1_score(y_te, y_pred, average="macro"),
+            "hate_f1": f1_score(y_te, y_pred, pos_label=1, zero_division=0),
+        })
+        if verbose:
+            print(f"  fold {fold}/{n_splits}: macro-F1 = {rows[-1]['macro_f1']:.3f} "
+                  f"(train {len(X_tr)}, test {len(X_te)})")
+
+    per_fold = _pd.DataFrame(rows)
+    metrics = ["accuracy", "precision_macro", "recall_macro", "macro_f1", "hate_f1"]
+    summary = {m: {"mean": float(per_fold[m].mean()), "std": float(per_fold[m].std(ddof=0))}
+               for m in metrics}
+    summary["n_splits"] = n_splits
+    return per_fold, summary
+
+
+def format_cv_summary(summary: dict) -> str:
+    """One line per metric: 'macro_f1        0.629 +/- 0.021'."""
+    lines = [f"Stratified {summary['n_splits']}-fold cross-validation"]
+    for m in ["accuracy", "precision_macro", "recall_macro", "macro_f1", "hate_f1"]:
+        s = summary[m]
+        lines.append(f"  {m:16s} {s['mean']:.3f} +/- {s['std']:.3f}")
+    return "\n".join(lines)
