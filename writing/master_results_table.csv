@@ -9,3 +9,4 @@ transformer,xlm-roberta-base,single split,6.0,2e-05,0.59,0.408,0.67,0.46,0.341,n
 transformer,xlm-roberta-base,single split,20.0,2e-05,0.632,0.533,0.659,0.42,0.187,no,"overfitting: train loss fell to ~0.40, test F1 did not improve"
 transformer,google/muril-base-cased,single split,6.0,2e-05,0.665,0.543,0.709,0.385,0.118,no,BEST MuRIL
 transformer,google/muril-base-cased,single split,20.0,2e-05,0.637,0.504,0.686,0.387,0.12,no,overfitting; cross-dataset unchanged vs 6 epochs
+transformer,ai4bharat/indic-bert,single split,20.0,2e-05,0.605,0.482,0.643,0.389,0.142,no,20 epochs only — best config not yet explored
