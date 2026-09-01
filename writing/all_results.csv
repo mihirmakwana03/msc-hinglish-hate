@@ -1,14 +1,14 @@
 family,model,protocol,epochs,lr,within_macro_f1,within_macro_std,within_hate_f1,within_f1_not,accuracy,cross_h22_macro_f1,cross_h22_hate_f1,cross_h21_macro_f1,train_time_s,degenerate,notebook,note
 statistical,TF-IDF word-only + LogReg,5-fold CV,,,0.622,0.01,,,,,,,,no,07_cross_validation,ablation: word n-grams only
 statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.657,0.005,0.567,,0.68,,,,,no,07_cross_validation,LOCKED BASELINE (default C=1.0)
-statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.654,0.009,,,,,,,,no,06_baseline_model,tuned C=0.1; CV score lower than default
-statistical,TF-IDF word+char+lexicon + LogReg,single split,,,0.642,,0.555,0.729,0.663,0.51,0.486,0.494,,no,06_baseline_model,same 915 test rows as transformers
-transformer,xlm-roberta-base,single split,3,2.00E-05,0.665,,0.565,0.764,0.694,0.448,0.26,,300,no,08_transformer_baseline_xlm-roberta,BEST XLM-R
-transformer,xlm-roberta-base,single split,6,3.00E-05,0.312,,0.531,0.093,0.381,0.401,0.673,,,YES,08_transformer_baseline_xlm-roberta,DEGENERATE: loss flat at ln(2); predicted hate for 874/915
-transformer,xlm-roberta-base,single split,6,2.00E-05,0.59,,0.408,0.771,0.67,0.46,0.341,,,no,08_transformer_baseline_xlm-roberta,
-transformer,xlm-roberta-base,single split,20,2.00E-05,0.632,,0.533,0.731,0.659,0.42,0.187,,2112,no,08_transformer_baseline_xlm-roberta_2,"overfitting: train loss fell to ~0.40, test F1 did not improve"
-transformer,google/muril-base-cased,single split,6,2.00E-05,0.665,,0.543,0.787,0.709,0.385,0.118,,627,no,08_transformer_baseline_MuRIL,BEST MuRIL
-transformer,google/muril-base-cased,single split,20,2.00E-05,0.637,,0.504,,0.686,0.387,0.12,,1949,no,08_transformer_baseline_MuRIL_2,overfitting; cross-dataset unchanged vs 6 epochs
-transformer,ai4bharat/indic-bert,single split,3,2e-5,0.538,,0.466,0.611,0.550,0.511,0.467,,236,no,08_transformer_baseline_Indic_BERT,"BEST cross-dataset of any transformer - matches the TF-IDF baseline"
-transformer,ai4bharat/indic-bert,single split,6,2e-5,0.640,,0.537,0.742,0.669,0.474,0.396,,461,no,08_transformer_baseline_Indic_BERT_2,best IndicBERT within-dataset
-transformer,ai4bharat/indic-bert,single split,20,2e-5,0.605,,0.482,0.727,0.643,0.389,0.142,,1429,no,08_transformer_baseline_Indic_BERT_3,"overfitting; cross-dataset falls monotonically with epochs"
+statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.654,0.009,,,,,,,,no,06_baseline_model,"tuned C=0.1; scores below default under CV, so tuning gain was noise"
+statistical,TF-IDF word+char+lexicon + LogReg,single split,,,0.642,,0.555,0.729,0.663,0.51,0.486,0.494,,no,06_baseline_model,same 915 test rows as all transformers
+transformer,xlm-roberta-base,single split,3,2e-5,0.665,,0.565,0.764,0.694,0.448,0.26,,300,no,(not retained),BEST XLM-R. Notebook overwritten by a later config; re-run to restore
+transformer,xlm-roberta-base,single split,6,3e-5,0.312,,0.531,0.093,0.381,0.401,0.673,,,YES,(not retained),DEGENERATE: loss flat at ln(2)=0.693; predicted hate for 874/915. Cross hate-F1 0.673 is an artefact of all-hate prediction on a 51.3% hate test set
+transformer,xlm-roberta-base,single split,6,2e-5,0.59,,0.408,0.771,0.67,0.46,0.341,,,no,(not retained),notebook overwritten; result recorded at run time
+transformer,xlm-roberta-base,single split,20,2e-5,0.632,,0.533,0.731,0.659,0.42,0.187,,2112,no,08_transformer_xlmr_20ep,"overfitting: train loss fell to ~0.40, test macro-F1 did not improve"
+transformer,google/muril-base-cased,single split,6,2e-5,0.665,,0.543,0.787,0.709,0.385,0.118,,627,no,08_transformer_muril_6ep,"BEST MuRIL. Highest in-domain accuracy of any model, worst cross-dataset"
+transformer,google/muril-base-cased,single split,20,2e-5,0.637,,0.504,0.77,0.686,0.387,0.12,,1949,no,08_transformer_muril_20ep,overfitting; cross-dataset unchanged vs 6 epochs. f1_not derived from macro-F1
+transformer,ai4bharat/indic-bert,single split,3,2e-5,0.538,,0.466,0.611,0.55,0.511,0.467,,236,no,08_transformer_indicbert_3ep,"Worst in-domain, BEST cross-dataset of any transformer - matches the TF-IDF baseline (0.510)"
+transformer,ai4bharat/indic-bert,single split,6,2e-5,0.64,,0.537,0.742,0.669,0.474,0.396,,461,no,08_transformer_indicbert_6ep,BEST IndicBERT in-domain
+transformer,ai4bharat/indic-bert,single split,20,2e-5,0.605,,0.482,0.727,0.643,0.389,0.142,,1429,no,08_transformer_indicbert_20ep,overfitting; cross-dataset falls monotonically with epochs (0.511 -> 0.474 -> 0.389)
