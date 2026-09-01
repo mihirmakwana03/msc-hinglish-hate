@@ -1,0 +1,11 @@
+family,model,protocol,epochs,lr,within_macro_f1,within_macro_std,within_hate_f1,within_f1_not,accuracy,cross_h22_macro_f1,cross_h22_hate_f1,cross_h21_macro_f1,train_time_s,degenerate,notebook,note
+statistical,TF-IDF word-only + LogReg,5-fold CV,,,0.622,0.01,,,,,,,,no,07_cross_validation,ablation: word n-grams only
+statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.657,0.005,0.567,,0.68,,,,,no,07_cross_validation,LOCKED BASELINE (default C=1.0)
+statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.654,0.009,,,,,,,,no,06_baseline_model,tuned C=0.1; CV score lower than default
+statistical,TF-IDF word+char+lexicon + LogReg,single split,,,0.642,,0.555,0.729,0.663,0.51,0.486,0.494,,no,06_baseline_model,same 915 test rows as transformers
+transformer,xlm-roberta-base,single split,3,2.00E-05,0.665,,0.565,0.764,0.694,0.448,0.26,,300,no,08_transformer_baseline_xlm-roberta,BEST XLM-R
+transformer,xlm-roberta-base,single split,6,3.00E-05,0.312,,0.531,0.093,0.381,0.401,0.673,,,YES,08_transformer_baseline_xlm-roberta,DEGENERATE: loss flat at ln(2); predicted hate for 874/915
+transformer,xlm-roberta-base,single split,6,2.00E-05,0.59,,0.408,0.771,0.67,0.46,0.341,,,no,08_transformer_baseline_xlm-roberta,
+transformer,xlm-roberta-base,single split,20,2.00E-05,0.632,,0.533,0.731,0.659,0.42,0.187,,2112,no,08_transformer_baseline_xlm-roberta_2,"overfitting: train loss fell to ~0.40, test F1 did not improve"
+transformer,google/muril-base-cased,single split,6,2.00E-05,0.665,,0.543,0.787,0.709,0.385,0.118,,627,no,08_transformer_baseline_MuRIL,BEST MuRIL
+transformer,google/muril-base-cased,single split,20,2.00E-05,0.637,,0.504,,0.686,0.387,0.12,,1949,no,08_transformer_baseline_MuRIL_2,overfitting; cross-dataset unchanged vs 6 epochs
