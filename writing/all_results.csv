@@ -3,7 +3,7 @@ statistical,TF-IDF word-only + LogReg,5-fold CV,,,0.622,0.01,,,,,,,,no,07_cross_
 statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.657,0.005,0.567,,0.68,,,,,no,07_cross_validation,LOCKED BASELINE (default C=1.0)
 statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.654,0.009,,,,,,,,no,06_baseline_model,"tuned C=0.1; scores below default under CV, so tuning gain was noise"
 statistical,TF-IDF word+char+lexicon + LogReg,single split,,,0.642,,0.555,0.729,0.663,0.51,0.486,0.494,,no,06_baseline_model,same 915 test rows as all transformers
-transformer,xlm-roberta-base,single split,3,2e-5,0.665,,0.565,0.764,0.694,0.448,0.26,,300,no,(not retained),BEST XLM-R. Notebook overwritten by a later config; re-run to restore
+transformer,xlm-roberta-base,single split,3,2e-5,0.665,,0.565,0.764,0.694,0.448,0.26,,300,no,08_transformer_xlmr_3ep,BEST XLM-R. Re-run 1 Sep, reproduced exactly
 transformer,xlm-roberta-base,single split,6,3e-5,0.312,,0.531,0.093,0.381,0.401,0.673,,,YES,(not retained),DEGENERATE: loss flat at ln(2)=0.693; predicted hate for 874/915. Cross hate-F1 0.673 is an artefact of all-hate prediction on a 51.3% hate test set
 transformer,xlm-roberta-base,single split,6,2e-5,0.59,,0.408,0.771,0.67,0.46,0.341,,,no,(not retained),notebook overwritten; result recorded at run time
 transformer,xlm-roberta-base,single split,20,2e-5,0.632,,0.533,0.731,0.659,0.42,0.187,,2112,no,08_transformer_xlmr_20ep,"overfitting: train loss fell to ~0.40, test macro-F1 did not improve"
