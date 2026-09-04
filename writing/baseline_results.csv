@@ -1,0 +1,6 @@
+model,class_weight,macro_f1,hate_P,hate_R,hate_F1,acc
+logreg,balanced,0.642,0.533,0.578,0.555,0.663
+svm,balanced,0.63,0.531,0.521,0.526,0.659
+logreg (word-only),balanced,0.629,,,,
+svm,None,0.619,0.533,0.467,0.498,0.658
+logreg,None,0.617,0.621,0.355,0.452,0.687

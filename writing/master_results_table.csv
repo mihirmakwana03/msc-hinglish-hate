@@ -3,7 +3,7 @@ statistical,TF-IDF word-only + LogReg,5-fold CV,,,0.622,,,,,no,ablation: word n-
 statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.657,0.567,0.68,,,no,LOCKED BASELINE (default C=1.0)
 statistical,TF-IDF word+char+lexicon + LogReg,5-fold CV,,,0.654,,,,,no,tuned C=0.1; CV score lower than default
 statistical,TF-IDF word+char+lexicon + LogReg,single split,,,0.642,0.555,0.663,0.51,0.486,no,same 915 test rows as transformers
-transformer,xlm-roberta-base,single split,3.0,2e-05,0.665,0.565,0.694,0.448,0.26,no,BEST XLM-R. Re-run 1 Sep, reproduced exactly
+transformer,xlm-roberta-base,single split,3.0,2e-05,0.665,0.565,0.694,0.448,0.26,no,BEST XLM-R
 transformer,xlm-roberta-base,single split,6.0,3e-05,0.312,0.531,0.381,0.401,0.673,YES,DEGENERATE: loss flat at ln(2); predicted hate for 874/915
 transformer,xlm-roberta-base,single split,6.0,2e-05,0.59,0.408,0.67,0.46,0.341,no,
 transformer,xlm-roberta-base,single split,20.0,2e-05,0.632,0.533,0.659,0.42,0.187,no,"overfitting: train loss fell to ~0.40, test F1 did not improve"
