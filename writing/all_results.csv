@@ -12,3 +12,6 @@ transformer,google/muril-base-cased,single split,20,2e-5,0.637,,0.504,0.77,0.686
 transformer,ai4bharat/indic-bert,single split,3,2e-5,0.538,,0.466,0.611,0.55,0.511,0.467,,236,no,08_transformer_indicbert_3ep,"Worst in-domain, BEST cross-dataset of any transformer - matches the TF-IDF baseline (0.510)"
 transformer,ai4bharat/indic-bert,single split,6,2e-5,0.64,,0.537,0.742,0.669,0.474,0.396,,461,no,08_transformer_indicbert_6ep,BEST IndicBERT in-domain
 transformer,ai4bharat/indic-bert,single split,20,2e-5,0.605,,0.482,0.727,0.643,0.389,0.142,,1429,no,08_transformer_indicbert_20ep,overfitting; cross-dataset falls monotonically with epochs (0.511 -> 0.474 -> 0.389)
+transformer,xlm-roberta-base,single split,25,2e-5,0.608,,0.400,0.816,0.718,0.329,0.002,,2554,no,08_transformer_xlmr_25ep,"highest accuracy of any run but hate-F1 collapses; cross hate-F1 ~0"
+transformer,google/muril-base-cased,single split,25,2e-5,0.638,,0.496,0.780,0.694,0.382,0.106,,2428,no,08_transformer_muril_25ep,"train loss 0.011 - near-total memorisation"
+transformer,ai4bharat/indic-bert,single split,25,2e-5,0.620,,0.493,0.747,0.662,0.366,0.080,,1859,no,08_transformer_indicbert_25ep,"train loss 0.0001 - complete memorisation; loss cannot flatten further"
