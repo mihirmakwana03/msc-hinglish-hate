@@ -8,7 +8,7 @@ This repository contains the dissertation work evaluating pretrained language mo
 
 - **Statistical baseline:** TF-IDF + Logistic Regression (with character, word, and lexicon features)
 - **Multilingual encoders:** XLM-RoBERTa, MuRIL
-- **Indian-language specialists:** IndicBERT
+- **Indian-language specialists:** IndicBERT v1 (`ai4bharat/indic-bert`)
 
 Evaluation uses both within-dataset (5-fold CV, single-split) and cross-dataset (HASOC 2022) protocols to measure generalization.
 
@@ -122,15 +122,15 @@ For training transformer models on GPU:
 - **Degenerate runs:** Marked explicitly (e.g., loss collapsed to ln(2), predicting all hate)
 - **Lexicon:** Custom slur list in `data/hinglish_slur_lexicon.csv` used for both statistical and transformer featurization
 - **Tokenization:** Transformers use model-specific tokenizers (SentencePiece for XLM-R, native for others)
+- **Hardware:** the multi-seed runs were completed on both Colab and the university RTX 3090. Identical seeds are not guaranteed to reproduce bit-for-bit across GPUs because cuDNN may select different kernels.
 
 ---
 
 ## Pending Work
 
-- **IndicBERT results:** Training run in progress. When complete, add row to `master_results_table.csv` with:
+- **IndicBERT results:** use v1 only for comparison with the epoch sweep:
   - Model: `ai4bharat/indic-bert`
   - Protocol: single split (to match XLM-R/MuRIL)
-  - Expected metrics: within-dataset macro F1, hate F1; cross-dataset F1
   - Note: v1 (ALBERT-based), not v2
 
 ---
