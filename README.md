@@ -90,7 +90,7 @@ The main results table ([writing/master_results_table.csv](writing/master_result
 Install dependencies:
 ```bash
 pip install -r requirements.txt  # if available, or:
-pip install torch transformers pandas scikit-learn jupyter
+pip install torch transformers pandas pyarrow scikit-learn jupyter
 ```
 
 ### Quick Start (Statistical Baseline)
