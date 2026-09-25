@@ -15,6 +15,13 @@ transformer,ai4bharat/indic-bert,single split,20,2e-5,0.605,,0.482,0.727,0.643,0
 transformer,xlm-roberta-base,single split,30,2e-5,0.624,,0.529,0.719,0.648,0.466,0.273,,3171,no,08_transformer_xlmr_30ep,train loss 0.024
 transformer,google/muril-base-cased,single split,30,2e-5,0.652,,0.517,0.787,0.704,0.379,0.102,,2769,no,08_transformer_muril_30ep,train loss 0.010
 transformer,ai4bharat/indic-bert,single split,30,2e-5,0.636,,0.527,0.745,0.669,0.445,0.267,,2647,no,08_transformer_indicbert_30ep,train loss 0.0000 - complete memorisation
+transformer,ai4bharat/indic-bert,single split,25,2e-5,0.620,,0.493,0.747,0.662,0.366,0.080,,1859,no,08_transformer_indicbert_25ep,overfitting; cross-dataset macro-F1 falls to 0.366
+transformer,google/muril-base-cased,single split,25,2e-5,0.638,,0.496,0.780,0.694,0.382,0.106,,2428,no,08_transformer_muril_25ep,overfitting; cross-dataset macro-F1 falls to 0.382
+transformer,xlm-roberta-base,single split,25,2e-5,0.608,,0.400,0.816,0.718,0.329,0.002,,2554,no,08_transformer_xlmr_25ep,overfitting; hate recall falls to 0.259
+transformer,ai4bharat/indic-bert,single split,3,3e-5,0.647,,0.567,0.728,0.666,0.466,0.334,,,no,08_transformer_indicbert_3ep_3LR,3e-5 learning rate
+transformer,ai4bharat/indic-bert,single split,6,3e-5,0.671,,0.577,0.764,0.697,0.399,0.150,,,no,08_transformer_indicbert_6ep_3LR,3e-5 learning rate; best IndicBERT single-split result
+transformer,ai4bharat/indic-bert,single split,20,3e-5,0.633,,0.503,0.763,0.679,0.412,0.189,,,no,08_transformer_indicbert_20ep_3LR,3e-5 learning rate
+transformer,google/muril-base-cased,single split,6,3e-5,0.389,,0.000,0.778,0.637,0.328,0.000,,,yes,08_transformer_muril_6ep_3LR,DEGENERATE: predicts the non-hate class for every test example
 transformer,xlm-roberta-base,3-seed mean,3,2e-05,0.665,0.006,0.590,0.740,0.682,0.438,0.235,,88,no,13_multiseed,multiseed 3-seed mean; XLM-RoBERTa; std in multiseed_results.csv; model version explicitly recorded
 transformer,google/muril-base-cased,3-seed mean,6,2e-05,0.667,0.012,0.560,0.775,0.703,0.403,0.160,,163,no,13_multiseed,multiseed 3-seed mean; MuRIL; std in multiseed_results.csv; model version explicitly recorded
 transformer,ai4bharat/IndicBERTv2-MLM-only,3-seed mean,6,2e-05,0.656,0.011,0.566,0.747,0.681,0.385,0.112,,160,no,13_multiseed,multiseed 3-seed mean; IndicBERT v2; std in multiseed_results.csv; model version explicitly recorded
