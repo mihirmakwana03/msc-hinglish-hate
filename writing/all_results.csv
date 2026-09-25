@@ -18,3 +18,13 @@ transformer,ai4bharat/indic-bert,single split,30,2e-5,0.636,,0.527,0.745,0.669,0
 transformer,xlm-roberta-base,3-seed mean,3,2e-05,0.665,0.006,0.590,0.740,0.682,0.438,0.235,,88,no,13_multiseed,multiseed 3-seed mean; XLM-RoBERTa; std in multiseed_results.csv; model version explicitly recorded
 transformer,google/muril-base-cased,3-seed mean,6,2e-05,0.667,0.012,0.560,0.775,0.703,0.403,0.160,,163,no,13_multiseed,multiseed 3-seed mean; MuRIL; std in multiseed_results.csv; model version explicitly recorded
 transformer,ai4bharat/IndicBERTv2-MLM-only,3-seed mean,6,2e-05,0.656,0.011,0.566,0.747,0.681,0.385,0.112,,160,no,13_multiseed,multiseed 3-seed mean; IndicBERT v2; std in multiseed_results.csv; model version explicitly recorded
+model,epochs,lr,seed,macro_f1,hate_f1,f1_not,accuracy,cross_macro_f1,cross_hate_f1,final_train_loss
+xlm-roberta-base,3,2e-5,42,0.666,0.589,0.744,0.684,0.456,0.276,0.611
+xlm-roberta-base,3,2e-5,1337,0.672,0.609,0.735,0.684,0.406,0.158,0.578
+xlm-roberta-base,3,2e-5,2024,0.657,0.573,0.741,0.678,0.451,0.27,0.622
+google/muril-base-cased,6,2e-5,42,0.65,0.518,0.782,0.699,0.371,0.085,0.438
+google/muril-base-cased,6,2e-5,1337,0.674,0.573,0.775,0.705,0.398,0.166,0.549
+google/muril-base-cased,6,2e-5,2024,0.678,0.588,0.769,0.704,0.44,0.227,0.426
+ai4bharat/IndicBERTv2-MLM-only,6,2e-5,42,0.661,0.557,0.765,0.693,0.379,0.097,0.345
+ai4bharat/IndicBERTv2-MLM-only,6,2e-5,1337,0.642,0.539,0.744,0.671,0.393,0.127,0.432
+ai4bharat/IndicBERTv2-MLM-only,6,2e-5,2024,0.667,0.6,0.733,0.68,0.384,0.113,0.458
