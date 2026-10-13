@@ -12,26 +12,3 @@ transformer,google/muril-base-cased,single split,20,2e-5,0.637,,0.504,0.77,0.686
 transformer,ai4bharat/indic-bert,single split,3,2e-5,0.538,,0.466,0.611,0.55,0.511,0.467,,236,no,08_transformer_indicbert_3ep,"Worst in-domain, BEST cross-dataset of any transformer - matches the TF-IDF baseline (0.510)"
 transformer,ai4bharat/indic-bert,single split,6,2e-5,0.64,,0.537,0.742,0.669,0.474,0.396,,461,no,08_transformer_indicbert_6ep,BEST IndicBERT in-domain
 transformer,ai4bharat/indic-bert,single split,20,2e-5,0.605,,0.482,0.727,0.643,0.389,0.142,,1429,no,08_transformer_indicbert_20ep,overfitting; cross-dataset falls monotonically with epochs (0.511 -> 0.474 -> 0.389)
-transformer,xlm-roberta-base,single split,30,2e-5,0.624,,0.529,0.719,0.648,0.466,0.273,,3171,no,08_transformer_xlmr_30ep,train loss 0.024
-transformer,google/muril-base-cased,single split,30,2e-5,0.652,,0.517,0.787,0.704,0.379,0.102,,2769,no,08_transformer_muril_30ep,train loss 0.010
-transformer,ai4bharat/indic-bert,single split,30,2e-5,0.636,,0.527,0.745,0.669,0.445,0.267,,2647,no,08_transformer_indicbert_30ep,train loss 0.0000 - complete memorisation
-transformer,ai4bharat/indic-bert,single split,25,2e-5,0.620,,0.493,0.747,0.662,0.366,0.080,,1859,no,08_transformer_indicbert_25ep,overfitting; cross-dataset macro-F1 falls to 0.366
-transformer,google/muril-base-cased,single split,25,2e-5,0.638,,0.496,0.780,0.694,0.382,0.106,,2428,no,08_transformer_muril_25ep,overfitting; cross-dataset macro-F1 falls to 0.382
-transformer,xlm-roberta-base,single split,25,2e-5,0.608,,0.400,0.816,0.718,0.329,0.002,,2554,no,08_transformer_xlmr_25ep,overfitting; hate recall falls to 0.259
-transformer,ai4bharat/indic-bert,single split,3,3e-5,0.647,,0.567,0.728,0.666,0.466,0.334,,,no,08_transformer_indicbert_3ep_3LR,3e-5 learning rate
-transformer,ai4bharat/indic-bert,single split,6,3e-5,0.671,,0.577,0.764,0.697,0.399,0.150,,,no,08_transformer_indicbert_6ep_3LR,3e-5 learning rate; best IndicBERT single-split result
-transformer,ai4bharat/indic-bert,single split,20,3e-5,0.633,,0.503,0.763,0.679,0.412,0.189,,,no,08_transformer_indicbert_20ep_3LR,3e-5 learning rate
-transformer,google/muril-base-cased,single split,6,3e-5,0.389,,0.000,0.778,0.637,0.328,0.000,,,yes,08_transformer_muril_6ep_3LR,DEGENERATE: predicts the non-hate class for every test example
-transformer,xlm-roberta-base,3-seed mean,3,2e-05,0.665,0.006,0.590,0.740,0.682,0.438,0.235,,88,no,13_multiseed,multiseed 3-seed mean; XLM-RoBERTa; std in multiseed_results.csv; model version explicitly recorded
-transformer,google/muril-base-cased,3-seed mean,6,2e-05,0.667,0.012,0.560,0.775,0.703,0.403,0.160,,163,no,13_multiseed,multiseed 3-seed mean; MuRIL; std in multiseed_results.csv; model version explicitly recorded
-transformer,ai4bharat/IndicBERTv2-MLM-only,3-seed mean,6,2e-05,0.656,0.011,0.566,0.747,0.681,0.385,0.112,,160,no,13_multiseed,multiseed 3-seed mean; IndicBERT v2; std in multiseed_results.csv; model version explicitly recorded
-model,epochs,lr,seed,macro_f1,hate_f1,f1_not,accuracy,cross_macro_f1,cross_hate_f1,final_train_loss
-xlm-roberta-base,3,2e-5,42,0.666,0.589,0.744,0.684,0.456,0.276,0.611
-xlm-roberta-base,3,2e-5,1337,0.672,0.609,0.735,0.684,0.406,0.158,0.578
-xlm-roberta-base,3,2e-5,2024,0.657,0.573,0.741,0.678,0.451,0.27,0.622
-google/muril-base-cased,6,2e-5,42,0.65,0.518,0.782,0.699,0.371,0.085,0.438
-google/muril-base-cased,6,2e-5,1337,0.674,0.573,0.775,0.705,0.398,0.166,0.549
-google/muril-base-cased,6,2e-5,2024,0.678,0.588,0.769,0.704,0.44,0.227,0.426
-ai4bharat/IndicBERTv2-MLM-only,6,2e-5,42,0.661,0.557,0.765,0.693,0.379,0.097,0.345
-ai4bharat/IndicBERTv2-MLM-only,6,2e-5,1337,0.642,0.539,0.744,0.671,0.393,0.127,0.432
-ai4bharat/IndicBERTv2-MLM-only,6,2e-5,2024,0.667,0.6,0.733,0.68,0.384,0.113,0.458

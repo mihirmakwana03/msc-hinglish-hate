@@ -1,0 +1,9 @@
+model,split,true_not,false_hate,missed_hate,true_hate,hate_recall,hate_precision,not_recall
+TF-IDF + LogReg,within,415,168,140,192,0.578,0.533,0.712
+XLM-RoBERTa,within,448,135,155,177,0.533,0.567,0.768
+MuRIL,within,479,104,174,158,0.476,0.603,0.822
+IndicBERT v1,within,446,137,154,178,0.536,0.565,0.765
+TF-IDF + LogReg,cross,1817,282,1865,342,0.155,0.548,0.866
+XLM-RoBERTa,cross,1632,467,1669,538,0.244,0.535,0.778
+MuRIL,cross,2068,31,2118,89,0.04,0.742,0.985
+IndicBERT v1,cross,2040,59,2102,105,0.048,0.64,0.972
