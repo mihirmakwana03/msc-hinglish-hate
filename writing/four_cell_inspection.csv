@@ -1,0 +1,667 @@
+model,split,cell,label,pred,p_hate,D,lex_hits,n_words,your_verdict,your_note,text
+TF-IDF + LogReg,within,FN missed hate,1,0,0.4519571022573345,0.096,1,14,,,Modi ji ka khaadi pe photo-tumne Gandhi ji ko hata diya blah blah.
+TF-IDF + LogReg,within,FN missed hate,1,0,0.4389938506810194,0.122,1,16,,,SuChai TO Ye Hai Ks Ki ArMy Rape kRti Hai Ab KhNa Ye B JOoTh hai
+TF-IDF + LogReg,within,FN missed hate,1,0,0.4523786297729605,0.095,1,8,,,Dalit ladki ka rape Kiya tere bhai ne @ravishndtv ??https://twitter.com/BiharEtv/status/834759841780375556 …
+TF-IDF + LogReg,within,FN missed hate,1,0,0.4312466497110028,0.138,2,27,,,"Hahaha,  to apni aurato ko hi rape ker diya,  Kareem 5 Lacs East Pak ki aurato ko rape ker diya aur jab Karne ki Bari aayi to surrender"
+TF-IDF + LogReg,within,FN missed hate,1,0,0.4525676361370382,0.095,0,6,,,Toilets tm log banwa ni sakte
+TF-IDF + LogReg,within,FN missed hate,1,0,0.3380731540057274,0.324,2,24,,,Mughalo k rape ka nateeja hai tu osama bin laden ki aulaad......dekh kahin agla bomb teri maa k gaand mein naa fatt jaye
+TF-IDF + LogReg,within,FN missed hate,1,0,0.3633827312107311,0.273,1,22,,,prostitute k pass bhi jaane k baad hawas poori na hoti toh rape pe aa jate hai...hawas ki hadh hai bhai...
+TF-IDF + LogReg,within,FN missed hate,1,0,0.3623211912426912,0.275,2,26,,,agar yaha rapes hote bhi hain tou ratio india wala nahi hai . zara apna ratio dekho ja k tumhari har gali main rape ho raha hai
+TF-IDF + LogReg,within,FN missed hate,1,0,0.3300694344628321,0.34,1,10,,,In San logo ko sir e aam phansi Deni chaiye
+TF-IDF + LogReg,within,FN missed hate,1,0,0.3419762053660494,0.316,2,23,,,Bhikh me Mila hu desh baris se bachne ki aukat nai baat karte Ho rape karne ki benched zinda jala do Pakistan ko
+TF-IDF + LogReg,within,FN missed hate,1,0,0.2361804046926193,0.528,1,18,,,Ek aurat ka rape ho gaya hai yaha wo use bhi politics me uska bachao kar rahi hai
+TF-IDF + LogReg,within,FN missed hate,1,0,0.2036643548631657,0.593,1,25,,,CM thai to terrorism sai kasai ladna hai sab malum tha. PM hotai hi sab bhool gayai. Or cake kaha nai pakistan bhi chala gayai
+TF-IDF + LogReg,within,FN missed hate,1,0,0.2662459740324784,0.468,1,21,,,"Darze nai kehte darje kehte loruu singhh!! Na bolna aata hai na ilkhna, gang rape ki birth hai tumari yaqeenan hahaa"
+TF-IDF + LogReg,within,FN missed hate,1,0,0.1732182633152932,0.654,1,5,,,tujhe murder kar dungi main!
+TF-IDF + LogReg,within,FN missed hate,1,0,0.277668324549491,0.445,1,13,,,"Tumhare to terrorism failane aate Hain, Indian army 72 hooron se mila deti unko"
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5092605142658855,0.019,2,39,,,Vikaas is real ok ? Smjhao phr pehlay shpa se hate phr love aur peth peechay burai. Isk bad priyank se itni nafrat shakal nh dekhao ye wo sab aglay hi din hiten k jatay hi sab thk hogya KAISAY?
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5145176753159676,0.029,2,21,,,Tera gyan bas yehi tak tha dimwit. Waise laal salaam walo ke liye to danga aur rape bahut common baat hai
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5381544033881509,0.076,1,53,,,Sir ji I am sure chillane se kuchh valid nahi ho jata but I am more sure ki solid argument dene se bhi kuchh nahi hai..jinko jisko support karna hta hai wo karte hain..Yezidi women ke rape ke kitne solid argument chahiye..poori duniya me bataiye kitne powrful log saath hain.
+TF-IDF + LogReg,within,FP false alarm,0,1,0.519677444728025,0.039,2,10,,,"Isiliye baat baat par gali dene par as hate ho,"
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5225042518841696,0.045,2,23,,,Aur tujh jaison ke JARURAT :D :P Hume bhe nahi ... Asli Terrorist to tum jaise log ho Jo dilon mai nafrat rakhtey ho
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5551884668700672,0.11,2,11,,,you mean hatred ke saath disbelief aa hi jata hai slowly?
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5587117956640086,0.117,1,43,,,@alamgirizvi @RealQueenSimren @Anjupra7743  koi Baba larkio aurto ko Bandi banake rakha hai media akh band rakhe.koi rape ho media akh band rakhe.koi udyogpati loot Raha Desh Kai paiso ko media ki akh band.unemployment faila hai industry ki Halat kharab media ki akh band.
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5977559027317074,0.196,3,27,,,"Thori sharam karo. Aap ki auqat nahin Hafiz saeed per comment karne ki,, pehle BB k qatilon ko pakro,, dr asim ko phansi do, apna ehtsab kro"
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5740763874444555,0.148,1,16,,,Khud Kisi ko hate krte ho to apne AAP ko ya apne perception badal paate ho
+TF-IDF + LogReg,within,FP false alarm,0,1,0.5807685256298051,0.162,1,20,,,@Sohail10597Khan @MesutOzil1088  apni marwaane nahi dusro ki maarne waapas aaya hai. Yaad hai na 20 min. Me kaisa 3-0 rape kiya tha manu ka
+TF-IDF + LogReg,within,FP false alarm,0,1,0.6378111183485207,0.276,1,16,,,phir kyon jhel rahe hain unko...he was Hindu Hriday Samrat till he gave hate speech...
+TF-IDF + LogReg,within,FP false alarm,0,1,0.6502717528190604,0.301,2,46,,,@NitishKumar @wscid @narendramodi @ bihar vijaipurthana police bauhat hi bada kand hone pe risvat le ke chut hai ek  ladki ki kidnap kar ke rape kar ke murder kar diya gya hai vijaipurthana  police mila hai Mukesh kumar bade babu jo 12 lakh rupya le ke case ko daba rha hai pic.twitter.com/JL1DkoqVDT
+TF-IDF + LogReg,within,FP false alarm,0,1,0.7321977101504511,0.464,1,13,,,Par uske bad to kisi ki hate ka bhi koi faida nhi hoga
+TF-IDF + LogReg,within,FP false alarm,0,1,0.6731675375479116,0.346,4,16,,,"Lekin tum log terrorism krte raho, bs films banana chor do. Ghatiya films aur ghatiya actors."
+TF-IDF + LogReg,within,FP false alarm,0,1,0.6817432403167057,0.363,4,10,,,"kah kah kah kah, haters gonna hate hate hate hate"
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.4090817829222919,0.182,1,14,,,Sanjay bhansali Ke thappad Lagne par hindu terrorism bolne Wale ab kaha h. #Dogle
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.3964297873414432,0.207,2,14,,,Aur nyayalay ne bhi aisa mana ki rape k 90% case jhoote nikal rahe hai pic.twitter.com/zM4VShzpAG
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.4875845220227768,0.025,1,23,,,aap lafzo Ki rani h mohotarma ..qalam aap Ki pehchaan aur aapke ishare s saare lafz sematt hate h aapki barghaa m ..aur...
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.4714549800340687,0.057,0,12,,,suadie kings apne badshat bachane k liye kisi ko be ne chora
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.4319214531192579,0.136,1,31,,,Ab tu bata ke na mard pakistanio ko janwar aur aur chote bacche itne kuu pasand hai. Pakistan mein hi nahi balki uk and saudi mein bhi animal rape kiya hahaha
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.3048978683945908,0.39,1,15,,,"rape Jo 20guna bad gye hain UP mein,, murders bad gye hain usko bhi roko"
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.2932574031868344,0.413,0,7,,,Kal Tak Tho Achi Bhali Virgin Thi..
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.3637144079379373,0.273,1,15,,,Ali bhai aaj kisi ne uworld se deep rape Kia hay. Dard horahi hay :p
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.350043335483398,0.3,1,14,,,Kashmir main tum log jo kar rahe ho wo terrorism ni hai jahil insan
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.3259124758093489,0.348,1,26,,,Yogi ji aaj Gorakhpur me fir  ik  nirdosh ka chalan kiya gaya hai .WO bhi murder 302 me aur aur aap kahte hai ki aap yogi hai
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.0860352483140897,0.828,1,17,,,Bhai agar bakchodi ho gayi ho tho islamic terrorism ki baat kar le..Ya radical islam ki
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.2216476590408865,0.557,1,13,,,Lagta hai Pakistaniyun ne rape kiya hua hai tera tabhi itna jalty ho
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.2511677926292843,0.498,1,14,,,Stadium tak agaye hain to ab himmat kar k apna rape bhi dekh len.
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.1464682176118188,0.707,1,5,,,#NowPlaying Rape Me van Nirvana ♫ http://spoti.fi/1bADyVK
+TF-IDF + LogReg,within,TN correct not-hate,0,0,0.243642484568384,0.513,1,3,,,Puri fake hai
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5739774958147948,0.148,1,26,,,Agar rape ka comment padkar thodi si bhi sharm ati hogi tuje apne logo pe to apne pair se chappal nikal kar apne muh par marna
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5870524549817496,0.174,1,15,,,Vikash Ke pas jo be gaya usne shilpa Ke buraye keya I hate vikash arshi
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5003509490220466,0.001,3,26,,,Sare terrorist jihad ka naam pahle lete hai baad me musalman.meri bahen ka rape karne gaye mullo ko woh gagar muli ki tarah kat degi
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5590240750076767,0.118,1,13,,,now I hate Rohan..Rohan aur Lopa finale mai na ho assa hai..
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5116408964837467,0.023,2,43,,,"@isalilsand Show rigged hai aur shilpa ne kya kiya yaar Jo usko kaha joota nikal ke maruga to joota bhi ganda ho jayega,ma bana ka shauk hai to bahar nikalo shakti kapoor wait kar raha hai..I hate u @ColorsTV @EndemolShineIND @viacom18 ..i'm deeply hurt"
+TF-IDF + LogReg,within,TP caught hate,1,1,0.6942712157152521,0.389,2,22,,,chal na gunda manvr manu ka chamcha i hate m2 piche piche chugliya karta hai manu ke sath ghar ganda bna rak
+TF-IDF + LogReg,within,TP caught hate,1,1,0.7045712619008511,0.409,3,20,,,Kuch indians itne ghatiya ho chuke hain k cricket ki baat kro tu terrorism k randi rone shru krdete hain
+TF-IDF + LogReg,within,TP caught hate,1,1,0.5991210232381893,0.198,1,23,,,Agar tum use support nahi karoge to tumhari nottanki dukan kaise chalege na? I hate liberals Muslims. Sharm kar ALLAH ne mus bn
+TF-IDF + LogReg,within,TP caught hate,1,1,0.6813003471990987,0.363,3,12,,,kitni gaand jalti hai bhai teri even srk fans hate u chutiye
+TF-IDF + LogReg,within,TP caught hate,1,1,0.6015293400269089,0.203,2,12,,,....is saale isi ke agent ko phansi pe latkana chahiye chauraahe pe pic.twitter.com/ARI7us4xJS
+TF-IDF + LogReg,within,TP caught hate,1,1,0.8723366802959251,0.745,1,13,,,Bani k sath galat hua h .. I hate u both Mannu n manveer !!!!
+TF-IDF + LogReg,within,TP caught hate,1,1,0.9187530542937274,0.838,2,10,,,"I hate this ""ngalusa mina"" nonsense. Inobuphuma silwe phakathi nje."
+TF-IDF + LogReg,within,TP caught hate,1,1,0.7251898952429819,0.45,2,22,,,"Phele toh rohingya Muslim ne Buddhist,hindu logo ko mara,rape kiya,conversion kiya aur ab apna Randi Rona ro rahe hai"
+TF-IDF + LogReg,within,TP caught hate,1,1,0.8311485344401061,0.662,3,41,,,"Mard suwaro jaisa yea kutia jaisa bachhe paida nehin karya.. tumsab aur suwar mein koi fark nehin , aj pura dunia hate karta hain, aj rahul jaisa ek mulla patost bhi janeu lekar nikal pada hain, sudhar ja nehin to Shambhulala ajyega."
+TF-IDF + LogReg,within,TP caught hate,1,1,0.731874053084278,0.464,1,28,,,oh god.i told u na.first day jab adi ki ek v scene tak nhi hua tha tab se sab bol rahe the aditi i hate u.
+XLM-RoBERTa,within,FN missed hate,1,0,0.4674900472164154,0.065,1,28,,,Kitne Bangladeshi k khoon se tumlogo ka haat ranga h ye pata h? Kitne bangal women ka rape kiya tha tere army ne pata h?? Insaniyat ki basy
+XLM-RoBERTa,within,FN missed hate,1,0,0.4346370100975036,0.131,3,24,,,"Awwww fir Bura Laga?? Bas kal tak aankh na fod liyo. Live rape dekh le Pakistan ka, legal bhi hai ye, rape obsessed chutiye"
+XLM-RoBERTa,within,FN missed hate,1,0,0.4322536885738373,0.135,1,21,,,Tum sare BJP wale mil kar mahilao ka rape karte ho aur empowerment ka gana gate ho. Sharm nahi aati tumko?
+XLM-RoBERTa,within,FN missed hate,1,0,0.4831079244613647,0.034,1,23,,,bani is made to hate . Meri maa ko bola sab ayo help kro . Another case bani tumhari maa ko bola main kya kru .
+XLM-RoBERTa,within,FN missed hate,1,0,0.4339251816272735,0.132,3,24,,,Ye le madarchod dekh iss video ko kase tera Fauji urf terrorist baloch awrto ka rape krr rahe hain. Live video de Raha Hun.
+XLM-RoBERTa,within,FN missed hate,1,0,0.3905353546142578,0.219,3,14,,,abey tumhare tattu Kalbushan jese Haramkhoor or phattu yaha aa kar terrorism karte hain.
+XLM-RoBERTa,within,FN missed hate,1,0,0.3940806090831756,0.212,1,26,,,Dilog acha hy rishi sir sbko pata hu terrorism kon kr Raha hy soo plzzz dosron pay ilzm na lagao pehly apne ghr ko saaf kro
+XLM-RoBERTa,within,FN missed hate,1,0,0.3875620067119598,0.225,3,22,,,Oye pagal terrorism ko maar goli and ye jo terrorism hai ye tum logo ki Pak ko badnaam karne     ki chaal hai
+XLM-RoBERTa,within,FN missed hate,1,0,0.4194608330726623,0.161,2,23,,,Bhikh me Mila hu desh baris se bachne ki aukat nai baat karte Ho rape karne ki benched zinda jala do Pakistan ko
+XLM-RoBERTa,within,FN missed hate,1,0,0.4070291221141815,0.186,0,19,,,Tumhe journalism ke naam pe dhabba bhi nahi kaha jaa sakta kyonki ye sab to tumhare khoon me hai.
+XLM-RoBERTa,within,FN missed hate,1,0,0.363249272108078,0.274,1,3,,,Chingri ko hate
+XLM-RoBERTa,within,FN missed hate,1,0,0.3184157609939575,0.363,1,18,,,Peace Ki Baat Karte Hain Jaise Kashmir Me Pakistan Army Terror Kar Rahi Haiii.....Being Human....For Humanity..... pic.twitter.com/mNv94emEn7
+XLM-RoBERTa,within,FN missed hate,1,0,0.2832870483398437,0.433,1,8,,,Dalit ladki ka rape Kiya tere bhai ne @ravishndtv ??https://twitter.com/BiharEtv/status/834759841780375556 …
+XLM-RoBERTa,within,FN missed hate,1,0,0.3703459799289703,0.259,1,14,,,Modi ji ka khaadi pe photo-tumne Gandhi ji ko hata diya blah blah.
+XLM-RoBERTa,within,FN missed hate,1,0,0.3101076185703277,0.38,1,10,,,In San logo ko sir e aam phansi Deni chaiye
+XLM-RoBERTa,within,FP false alarm,0,1,0.5607362985610962,0.121,2,20,,,Uff itni nafrat karachi se? Poora timeline hate tweets rts se bhar diya. Celebrate ur win yaar dil bara rakhen! https://twitter.com/AdilQureshi_/status/833772700543901696 …
+XLM-RoBERTa,within,FP false alarm,0,1,0.533922016620636,0.068,1,29,,,Maine khud bahut baar condemn Kiya hai aur Kisi bhi ghair muslim se zyada ek sachaa musalman karta hai . kyunki terrorism se sabse bada nuqsaan musalman ko hua hai
+XLM-RoBERTa,within,FP false alarm,0,1,0.5362405776977539,0.072,1,28,,,@ShatruganSinha_ Agar aap ko lagta hai ki party mai aap ka satkar nahi  ho raha hai to aap party se alag kaheko nahi ho hate ho. Tum gaddar ho.
+XLM-RoBERTa,within,FP false alarm,0,1,0.5685871243476868,0.137,1,26,,,"Cow k naam pe log bhi nafrat mai haiwaniyat pe uthar aate hai,bina jane gunah kar baithey hai politician ki vote bank bharne k liye"
+XLM-RoBERTa,within,FP false alarm,0,1,0.5562145113945007,0.112,1,23,,,7 sheed huwe too 14 mar gairaye gee dost..but piche nhi hate ge Pakistan ka baap hai India aur ushko ek din jhukna hoga
+XLM-RoBERTa,within,FP false alarm,0,1,0.6665807366371155,0.333,1,39,,,"Bat krni aati nai,aajati hai,duaro KO bolne. Phle khud k greban me.jhank k dekh khud ki chez kitna ziada bolti. Ap log to tameez e bhul hate ho jaise hina Ne apka qatl krdia ho ufffff...."
+XLM-RoBERTa,within,FP false alarm,0,1,0.6506619453430176,0.301,1,37,,,I am Muhajir .. Aur mere lye sab se Pehly Pakistan he .. agr 10 lakh Altaf Jese leaders bh is zameen ki behurmati kren un sbko sar e aam phansi Deni chahye .. Proud to be a #Muhajir and #Pakistani
+XLM-RoBERTa,within,FP false alarm,0,1,0.6522206664085388,0.304,1,39,,,"Jab Bhartiya Mari ki Asmita roj rapists dwara tar tar hoti hai, tab apki raksha karne ki kshamta Kahan Chali jati hai. Sabse jyada rape Rajasthan me hote hain. Aaj ki dekhiye,Hazar saal purani kahaniyon se Prerna leejiye."
+XLM-RoBERTa,within,FP false alarm,0,1,0.6705355644226074,0.341,2,60,,,Ajay s/o ramdas vill and post nawar ka nibasi hai jisne ek 6 year ki ladki rape kiya hai aur us ladki ke parents bahut ghabraye huye hai ajay ke ghar bale dhamki de rahe hai case bapas lelo nhi to ham kisi ko nhi chhodenge so ham sab gav basi ka nivedan hai ki us papi ko kadi se
+XLM-RoBERTa,within,FP false alarm,0,1,0.6648083925247192,0.33,2,40,,,Nawaz sharif ko btao k punjab police theek krle... taaake chotu gang se muqabla krske... take 300 pornographic videos na bne taaake 11 rape aaik shehar mae aik saal. Mae na hooo... take 2200 rape pore punjab mae aik saaal mae na hoo
+XLM-RoBERTa,within,FP false alarm,0,1,0.957449197769165,0.915,1,10,,,"Pushpa, mujhse ye aansu nahi dekhe jaate, I hate tears -"
+XLM-RoBERTa,within,FP false alarm,0,1,0.760659396648407,0.521,1,26,,,I can't .. pyaar karna sab sikha dete hai ..magar us pyaar se dur kaise jaya jata hai ye koi nhi sikhata  Don't hate her
+XLM-RoBERTa,within,FP false alarm,0,1,0.7610277533531189,0.522,1,8,,,That’s my opinion don’t hate me
+XLM-RoBERTa,within,FP false alarm,0,1,0.9679293632507324,0.936,1,21,,,or vo bhi mujhe follow karke  mere tweets ko ignore karke  rt maarte mere kiye  hue rts ko.i hate them
+XLM-RoBERTa,within,FP false alarm,0,1,0.9270035624504088,0.854,1,33,,,Bhaijaan I don't like this post ye new year hota to theek tha but ye tyohaar hum musalmaanon ka nahi hai I hate this post please delete and (Allah) se tauba karo
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4366587698459625,0.127,1,20,,,Bhai har baar ignore karte gyr aur ye maa chudate Gye Ab bahut hua ..Ab inki per day rape hoga
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4733296930789947,0.053,2,24,,,kyu bhaiya uske bhai ne rape kiya laga tere bhai ne rape kiya.. Wah wah.. Jo tum karo wo teek bjp kare toh kharab..
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4202210605144501,0.16,0,20,,,dil bara hojaye toh khoon bhi chaiye hota hai guys aur dil main basne walay khoon pi jaatay hain tbh
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4347552359104156,0.13,1,16,,,Haan aur 12 saal se upar wali ladkio ka rape karne pe aap rapists ko laddoo dena
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4356719851493835,0.129,1,29,,,Aap jaisi ladies sare world mai faila hua Islamic terrorism ko khatm kar shakta hai. Dekhte hai Pakistan mai sachche musalman kitne hai aur kaun aapke sath aata hai.
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3869137465953827,0.226,1,15,,,Ali bhai aaj kisi ne uworld se deep rape Kia hay. Dard horahi hay :p
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.4014047384262085,0.197,1,23,,,Bhaiya terrorism aplogon ne mchai hui ha kashmir me ar ap jse senior artists such chpakr ye comments kren sharm ki bat ha !
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3761938214302063,0.248,1,6,,,Ramjan may kya murder hote hai
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3851394653320312,0.23,1,13,,,Tweetr pe murder ki planning padh li to ghar aake utha lenge muje
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3852973580360412,0.229,1,13,,,"Baba bhee nahi hai. Padhaa likhaa aadmi ""intellectual terrorism"" kar raha fizool mein."
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.329301506280899,0.341,1,26,,,Waqai Baap Baap hota hai sara sal bacho ko khus krta hai But Fathers Day ko tumary jasy bacho ka #Gang_Bang rape hna chaheya lol!@chintskap pic.twitter.com/dXK7gIVhBy
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3549422025680542,0.29,1,9,,,Tera Haryana me rape nhi hua kya abhi tak?
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.2962445914745331,0.408,1,11,,,hate kr ke dekhao ma nasan v pan deniyan ;p aho https://twitter.com/lemeSaad/status/955389677837733888 …
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.326335459947586,0.347,1,9,,,@sureshkumar8873 hate ko ghas Khe la ne gay a hai
+XLM-RoBERTa,within,TN correct not-hate,0,0,0.3283883333206177,0.343,1,9,,,Koi wakai Sacha #sant hai to rape nahi karega
+XLM-RoBERTa,within,TP caught hate,1,1,0.501140296459198,0.002,2,28,,,"Mohmad kesa prophet, uske hi blind follower ki 6 saal ki beti ka rape kya or tum mulle aaj tak apni ma betiyo ka rape karte or karvate ho"
+XLM-RoBERTa,within,TP caught hate,1,1,0.5099246501922607,0.02,1,30,,,Thane me FIR tk darj nhi ki jati. Majburi me ladki ghar jakar aatmhatya kar leti hai. Pta h FIR kyo nhi likhi gai thi jis ladke ne rape kia
+XLM-RoBERTa,within,TP caught hate,1,1,0.6389939785003662,0.278,1,49,,,"Sarkaar ko puchkar to ye maamle nahin hote. Ye to aadikaalon se hote rahe hain. Ye hai ki kabhi kam kabhi zyada hue hain. Jaise jaise social activities aur jansankhya badhti jaa rahi hai, us tarah ki ghatnayein badhti jaa rahi hain: RK Saini, BJP on rape incidents in #Haryanapic.twitter.com/5sdkYCXHI3"
+XLM-RoBERTa,within,TP caught hate,1,1,0.5451532602310181,0.09,1,29,,,"naqab pr bolne se pahle un logo pr bolye jo rape krte h, chher chhar krte or jis din duniya ke mrd sudhar jynge insallah nakab khud ht jyega"
+XLM-RoBERTa,within,TP caught hate,1,1,0.6541251540184021,0.308,3,46,,,Tumhe israeli kutte ke sath selfi nahi leni chahia thi....kiya tumhare ghar bachche nahi he....kiya tumhare ghar bahu...beti nahi he.....agar un ka rape ho to aap ko kaisa lageaga...tab bhi aap islaeri kutte ke sath selfi lete......sham on you bacchan
+XLM-RoBERTa,within,TP caught hate,1,1,0.6692238450050354,0.338,2,46,,,Ye vo murge hain jab kasai ek murge ko kaatne k liye nikaalta hai tab vahi chilata hai baaki sab dekhte hain yahi haalat aaj daleep thakur jaise logon ki hai naa to ye rape kaa virodh karte hain aur naa hi padmavati jaisi film kaa
+XLM-RoBERTa,within,TP caught hate,1,1,0.6759609580039978,0.352,4,40,,,Bhai yeh Sena tab kidhar thi jab terrorist attack hota hai....yeh kidhar hoti hai jab brutal rape hota hai...Sad to see this hope they do something for nationa rather than Sanskriti...kyouki desh nahi toh Sanskriti Kya karegi
+XLM-RoBERTa,within,TP caught hate,1,1,0.8778165578842163,0.756,2,18,,,@imrc_rajesh @saurabhtewari76 veer i hate you. usne aaj #rangeela ko ghoda bana diya. uska maa kal #rangeela ko kutta kaha @lifeok @rahilq
+XLM-RoBERTa,within,TP caught hate,1,1,0.6852365732192993,0.37,2,26,,,Tujhe sharm aani chahia tuchhe koi Teri bhi beti ke sath Rape kar sakta hai . Betiyo ki ejjat karna shikh le budhhe . Tujhe bhi marna hai.
+XLM-RoBERTa,within,TP caught hate,1,1,0.9354601502418518,0.871,1,4,,,We hate naam sethi
+XLM-RoBERTa,within,TP caught hate,1,1,0.9546810984611512,0.909,5,18,,,I hate hate hate hate this filthy woman lopamudra..koi bhi angle se lagta nahi India ko representkihai @lopa9999 @TeamBaniJ @RealVinduSingh
+XLM-RoBERTa,within,TP caught hate,1,1,0.9562452435493468,0.912,1,13,,,yes hope surbhi char itni jaldi neg na ho i hate neg char
+XLM-RoBERTa,within,TP caught hate,1,1,0.9673691987991332,0.935,1,13,,,yes lala ki ek ek baat sachi hoty ha I hate imran khan
+XLM-RoBERTa,within,TP caught hate,1,1,0.9609951376914978,0.922,1,32,,,But i hate you arshi madam priyank ne aapke baare me kitna kuch bola but use apna frnd bana liya aur baaki ne utna to kuch nahi kiya to use latka diya
+XLM-RoBERTa,within,TP caught hate,1,1,0.9684603810310364,0.937,1,11,,,I hate you sakshi mahraj kyu dusmani hai unse aap ko
+MuRIL,within,FN missed hate,1,0,0.4965269863605499,0.007,3,26,,,in ka vikaas nafrat n hate ka vikaas hai jo sirf vote ke liye hai33 mahino main modi ne nafrat ki aandhi chalayi magar desh samajh
+MuRIL,within,FN missed hate,1,0,0.4507197737693786,0.099,1,14,,,history main likha jayega...11 logon ne 120 crore ka rape kiya..vo b aik sath
+MuRIL,within,FN missed hate,1,0,0.2577205002307892,0.485,3,24,,,"Awwww fir Bura Laga?? Bas kal tak aankh na fod liyo. Live rape dekh le Pakistan ka, legal bhi hai ye, rape obsessed chutiye"
+MuRIL,within,FN missed hate,1,0,0.3881106376647949,0.224,3,54,,,12 saal ki ladki ke sath rape hua to faansi..aur agar 16 ki ladki ke sath hua to kya karoge??2 saal mein bail?? Ye konsa kanoon hai?Rape kisi bhi age ki ladki ke sath ho sakta hai. Fir kya hoga 2saal mein bail..??Agar crime proof ho jaaye to uska penis kaat do BAss@cmohry
+MuRIL,within,FN missed hate,1,0,0.2206780761480331,0.559,1,12,,,@ imARanjan @Mujibansari6 @atifgujjar302 @thesushmitasen @vivekjayswal2 are Isi liye to bar bar bar hate Ho India se
+MuRIL,within,FN missed hate,1,0,0.1950243860483169,0.61,1,20,,,Aise  hi meeting attend karte raho train MEIN RAPE  hota  rahe ga tum napunsak ki Tarah baith  kar  dekhte  raho
+MuRIL,within,FN missed hate,1,0,0.1911466568708419,0.618,1,30,,,Hum to lagta hai ki sanghi aur bhakt ko mandir me ye sikhaye jata h ki koi Teri behan ka rape karega to bolna meri behan ka hi galti hai.
+MuRIL,within,FN missed hate,1,0,0.1783260405063629,0.643,2,16,,,"Bullet train gayi bhaad mein........ab NAFRAT,  SHAMSHAAN AUR KABRISTAN KI NEECH RAJNEETI kar raha Fenku."
+MuRIL,within,FN missed hate,1,0,0.1855543106794357,0.629,1,27,,,Rape say paida honay walo pehlay decide to kar ap logon ka asal baap kon hai jo paida hota hai ilzam Pakistan pay ilzam laga detay ho
+MuRIL,within,FN missed hate,1,0,0.1773978173732757,0.645,1,16,,,Rape karnewale koi aur nahi Roopa k paapi bhai hai....she send them.....Cheap Woman/Aurat
+MuRIL,within,FN missed hate,1,0,0.1757103204727172,0.649,2,24,,,Mughalo k rape ka nateeja hai tu osama bin laden ki aulaad......dekh kahin agla bomb teri maa k gaand mein naa fatt jaye
+MuRIL,within,FN missed hate,1,0,0.1749560832977295,0.65,2,20,,,"I don't talk with hate preachers because ""hamara kaam to mohabbat banta hai jahan nafrat ki jagah nahi hai"".."
+MuRIL,within,FN missed hate,1,0,0.1730320453643798,0.654,0,10,,,Aur phir mun utha Kar ah jate ho Twitter par
+MuRIL,within,FN missed hate,1,0,0.1742583066225052,0.651,1,25,,,CM thai to terrorism sai kasai ladna hai sab malum tha. PM hotai hi sab bhool gayai. Or cake kaha nai pakistan bhi chala gayai
+MuRIL,within,FN missed hate,1,0,0.1727523356676101,0.654,1,20,,,"Wo thodi dikhega bhai inhe,Islamic Terrorism ka naam lete hi inki zubaan pet mein gir jaati hai,Frustrated Bechaarey"
+MuRIL,within,FP false alarm,0,1,0.6732224822044373,0.346,1,21,,,"@Ravisrkian @iamsrkknight waise ek baat hai tum srk ke bina ek din nahi guzar sakte chahe like karo ya hate ADMIT IT, Please"
+MuRIL,within,FP false alarm,0,1,0.5998668670654297,0.2,1,25,,,@narendramodi  shame on modi jisne ladkiyo ke rape karne walo pe  kanoon banaya na koi thos kadam uthaye. Kiska wait hai modi ji. Shame on u
+MuRIL,within,FP false alarm,0,1,0.6586563587188721,0.317,1,15,,,Ye to sahe kaha par matter solve karo ki tumhare bestie kyun hate karte he
+MuRIL,within,FP false alarm,0,1,0.6501538157463074,0.3,4,41,,,Ek choti bachi jo gita je shlok pade uss se darr gaye aur rape threats aur gali dene lag gaye tum jaise jihadi... Ek bacchi se hi gaand faat gayi.... Yeh to Israel ke PM hai.... Samne aye to moot dega
+MuRIL,within,FP false alarm,0,1,0.6064156889915466,0.213,4,27,,,Uska land juhsleh sala suwar ka awlaad.. yeh harami logoh neh tera maa behen ko chodaa taa.. tum sab ko yeh goreh log rape kiya taa.. salaaa
+MuRIL,within,FP false alarm,0,1,0.7893914580345154,0.579,2,25,,,Ye kya chlaa hai jab tak wo khatm nahi hote tab tak humaare desh me rape murder khatm nahi honge unhe faansi do plzzzz sir
+MuRIL,within,FP false alarm,0,1,0.8010001182556152,0.602,3,20,,,yeh toh pathani kutte hain ko  ladkiyon ka rape karte hain yaad nahi bangladeshi ko 1971 mai kisne rape kiya PORKI
+MuRIL,within,FP false alarm,0,1,0.8098897337913513,0.62,1,27,,,Abe chutya bhool gaya kya Kuwait war main Muslim Iraqi soldiers ne hi Muslim Kuwaiti aurat ka Ladki logo ka rape Kiya tha.. Tum logo k aukad
+MuRIL,within,FP false alarm,0,1,0.8098501563072205,0.62,2,38,,,Desh mein 100% rape bhagwe log Matlab hindu Kar rahe hai sanbhu laal regar urf suvar apni bhahen ka balatakar karta hai Aur hame bol rahe ho Mahila ki ijjat Ka koi nhi lage raho balatakari bhagwi hindu boy
+MuRIL,within,FP false alarm,0,1,0.7747721076011658,0.55,1,19,,,"ye kis taraaki jel hai, kabhi keadi bhag hate hai to kabhi keadi ke ayse mamle same date hai."
+MuRIL,within,FP false alarm,0,1,0.8631496429443359,0.726,2,17,,,tumhari Cong hoti tou Italy k rishtedar ammer ho hate yahan sage Bhai bhi nahi corruption kahan
+MuRIL,within,FP false alarm,0,1,0.8444401621818542,0.689,1,26,,,"Cow k naam pe log bhi nafrat mai haiwaniyat pe uthar aate hai,bina jane gunah kar baithey hai politician ki vote bank bharne k liye"
+MuRIL,within,FP false alarm,0,1,0.8625549077987671,0.725,1,24,,,"I hate dis Condolences,akhir kab tak?? Ab waqt hai pahele protesters ki legs me Goli marne ka ,jo jis bhasa ko samjhta hai"
+MuRIL,within,FP false alarm,0,1,0.8617978096008301,0.724,1,33,,,Bhaijaan I don't like this post ye new year hota to theek tha but ye tyohaar hum musalmaanon ka nahi hai I hate this post please delete and (Allah) se tauba karo
+MuRIL,within,FP false alarm,0,1,0.8504540920257568,0.701,1,4,,,bhaag i hate hina
+MuRIL,within,TN correct not-hate,0,0,0.1977344006299972,0.605,1,16,,,Had hain aap b kia hakomat kisi ki brain wash kr rai hai k rape kro??
+MuRIL,within,TN correct not-hate,0,0,0.1958249509334564,0.608,2,15,,,lekin aaj Kal to Gujrat ki mataon ka gang rape Kar rhe aapke tuchhe karyakarta
+MuRIL,within,TN correct not-hate,0,0,0.1838097125291824,0.632,2,6,,,Everybody ignores such brutal rape cases.
+MuRIL,within,TN correct not-hate,0,0,0.2371865659952163,0.526,1,9,,,Likha lo aj b Karachi ka rape ho ga.
+MuRIL,within,TN correct not-hate,0,0,0.2010742425918579,0.598,1,12,,,Religion ab peace se jyada hate failane ke liye use hota hai.
+MuRIL,within,TN correct not-hate,0,0,0.1762018352746963,0.648,1,13,,,Pearl palace jesi jaga ho Jahan us city koi hate kesay ker sakta.
+MuRIL,within,TN correct not-hate,0,0,0.1742179989814758,0.652,1,8,,,bhai tu hain kon use hate karne wala
+MuRIL,within,TN correct not-hate,0,0,0.1746415495872497,0.651,0,21,,,Ar tag kro ki kon-kon esh hyena ko munh mei haddi dalna chahta h ya laat marna arshi ki trh.
+MuRIL,within,TN correct not-hate,0,0,0.1766532808542251,0.647,2,23,,,kala premi ji apke ankho ke samne rape bhi ho rha ho to aap standup comedy kr ke hi rapist ko sabak sikhayenge
+MuRIL,within,TN correct not-hate,0,0,0.1754540652036667,0.649,1,21,,,@Shivsena_Amit Sir jitni Protest SRK Ki movies ke time karte ho kabhi Nirbhaya Rape cases me karliya karo desh ka Bhala Hoga https://twitter.com/akshayerathi/status/818772481528004613 …
+MuRIL,within,TN correct not-hate,0,0,0.1729156076908111,0.654,1,4,,,Jai trop hate putain
+MuRIL,within,TN correct not-hate,0,0,0.1731671541929245,0.654,1,16,,,"Retired Fauji Ne Patni Ki Pitaai Karne Ke Baad Bistar Se Baandha, Naukar Ne Kiya Rape http://dlvr.it/N6THGy"
+MuRIL,within,TN correct not-hate,0,0,0.1725897490978241,0.655,1,18,,,Aab kitna roop dekhayegi @eyehinakhan .aaur kitna hate karen tumko? apna band kyun bajwana chah ragi ho gajini tum??
+MuRIL,within,TN correct not-hate,0,0,0.1736967414617538,0.653,2,22,,,Tum kaisa kah sakto ho hum terrorism phala rahen sala hum na teri biwi ke shalwar ma bomb chora tha kiya ba..!!
+MuRIL,within,TN correct not-hate,0,0,0.1729472279548645,0.654,0,12,,,"Tu Jaha Mai Waha, Starring: Vinod Khanna, Sulakshana Pandit, Movie- Garam Khoon 1980 http://fb.me/2oqOYfAgJ"
+MuRIL,within,TP caught hate,1,1,0.6783978343009949,0.357,2,47,,,"Arvind ji ,kya aap uss behan,beti ko juootha kehte hou,jis ko aap ke MLA ne Raasancard banne ke badle rape kiya tha,aap ko sharm aani chahiye jab aap bolten hain jhoothe kes main fassa diya,koi ourat jhooth bolegi kya mere sath rape hua."
+MuRIL,within,TP caught hate,1,1,0.8009004592895508,0.602,3,14,,,abey tumhare tattu Kalbushan jese Haramkhoor or phattu yaha aa kar terrorism karte hain.
+MuRIL,within,TP caught hate,1,1,0.8176437616348267,0.635,4,52,,,"Rape Toh Tum janti ho Sab se jada porkistan mein hota hai. Baap apni beti Ka. Beta ami ka and yeh sab allowed hai. Tum Khud janti ho Tum kitni baar so chukie ho abba ke sath, porki ho yaa rape yaa terrorism Aur kuch hai karne ko tumhare neech desh mein?"
+MuRIL,within,TP caught hate,1,1,0.6153002381324768,0.231,2,20,,,Pakistan Hindu ki gaand mei danda dete hain aur hindus apni women ko rape kar ke kush ho jatain hain.
+MuRIL,within,TP caught hate,1,1,0.8058570027351379,0.612,1,44,,,hina kal insta pe aa jayegi. waha tum log minority bhi nhi ho. saare hina fans ki power shilpa k peeche lg jayegi ye bhi dhyan rkhna. ab tk shilpa ka twitter saaf pda hua h. hate messages se bhar denge kal aao jara
+MuRIL,within,TP caught hate,1,1,0.8612057566642761,0.722,1,7,,,to bhi I hate mulla mulayam party
+MuRIL,within,TP caught hate,1,1,0.8626543879508972,0.725,1,15,,,I hate it jab koi mere doston se fuzool mein frank hone ki koshish kare :/
+MuRIL,within,TP caught hate,1,1,0.8630200028419495,0.726,2,45,,,Now i hate #ColorsTV show #EntertainmentKiRaat ye kya tarika hai joke banane ka shilpa ji ki insult kar dali jokes ki apni limit   hoti wo bhi jispe joke kar re wo waha pe hai bhi nahi hate this so no respect for women #ShilpaShinde #WeStandByShilpa
+MuRIL,within,TP caught hate,1,1,0.8456435203552246,0.691,1,27,,,"tumhari tou india main har female ka rape hua wa hai, tum hara tou har bacha he haram ka hai tou tumhe bachoon ka kiya dukh hoga"
+MuRIL,within,TP caught hate,1,1,0.8625829815864563,0.725,1,21,,,Tum na izzat Jeet payi na dil or na trophy.. Jitni bhi izzat bachi thi woh bhi kho baithi.. Hate u..
+MuRIL,within,TP caught hate,1,1,0.8633415102958679,0.727,1,12,,,@lopa9999 I hate you flopaaaa  aaj tumhara such bani layegi sab ke samne
+MuRIL,within,TP caught hate,1,1,0.8635551929473877,0.727,1,25,,,@RahulReply Rahul Ko Khud hi lgta I hate him. Helpful hai. Achi baatein krta. Flirt krta hai Boht. Kuch Kuch hota hai Rahul tum ni samjhoge.
+MuRIL,within,TP caught hate,1,1,0.8635368943214417,0.727,1,10,,,Arshi ne bahot rulaya Shilpa ko...I hate u arshi...
+MuRIL,within,TP caught hate,1,1,0.862807035446167,0.726,1,15,,,ghusa teesri shadi k baad thanda hoga i hate insafians  and love u miyaa sahib
+MuRIL,within,TP caught hate,1,1,0.8636166453361511,0.727,2,13,,,"@alee5386 I hate you so much aaaleee , tum chor kar mujhe so kaise Gaye??!??"
+IndicBERT v1,within,FN missed hate,1,0,0.3827303946018219,0.235,1,12,,,@ imARanjan @Mujibansari6 @atifgujjar302 @thesushmitasen @vivekjayswal2 are Isi liye to bar bar bar hate Ho India se
+IndicBERT v1,within,FN missed hate,1,0,0.389558881521225,0.221,1,30,,,Thane me FIR tk darj nhi ki jati. Majburi me ladki ghar jakar aatmhatya kar leti hai. Pta h FIR kyo nhi likhi gai thi jis ladke ne rape kia
+IndicBERT v1,within,FN missed hate,1,0,0.3690074980258941,0.262,2,35,,,"Zillat ki jeet se behtar Izzat ki haar hai, Vikas Gupta ka kahna hai ke shilpa se sakht nafrat karte hai lekin aankh band kar ke support karte hai bhayya ye konsi nafrat hai... #BB11 @doveeyeshashtag"
+IndicBERT v1,within,FN missed hate,1,0,0.4729365408420563,0.054,4,45,,,"Gashti ki bachi hay tu. Woh kanjar parliament jo zainab kay rape or qatal pay na jagi, wohi parliament lanat bhainy pay jag gyi. Or tera baap phoolon ki salamian lay raha hay helicopter say. Lanat tujh pay,terah bap pay, or tumhary supporters pay."
+IndicBERT v1,within,FN missed hate,1,0,0.4301299452781677,0.14,2,26,,,"Chori ek paise bhi hoti hai aur lakhon ki bhi. Chori, chori hai !Terrorism is terrorism, ek maaro ya hazaaron !!Don't try to defend yourself"
+IndicBERT v1,within,FN missed hate,1,0,0.3070171475410461,0.386,1,27,,,Rape say paida honay walo pehlay decide to kar ap logon ka asal baap kon hai jo paida hota hai ilzam Pakistan pay ilzam laga detay ho
+IndicBERT v1,within,FN missed hate,1,0,0.3096305429935455,0.381,1,13,,,Haaye! Tab to i also hate you duniya me sabse zyaada...Ab bolo!
+IndicBERT v1,within,FN missed hate,1,0,0.3072384893894195,0.386,1,21,,,@anuragkashyap72  jaha tak mujhe pta hai terrorism has no religion but still jab tak aap jaise log chutiyapa kabhi band nahi hoga
+IndicBERT v1,within,FN missed hate,1,0,0.3380798101425171,0.324,3,22,,,@TarekFatah agar tujhe islam or muslims se itni nafrat hai.... to phir tu hindu kyoun nahi ban jata jaahil insaan....u retarded shit
+IndicBERT v1,within,FN missed hate,1,0,0.3191483616828918,0.362,2,20,,,"I don't talk with hate preachers because ""hamara kaam to mohabbat banta hai jahan nafrat ki jagah nahi hai"".."
+IndicBERT v1,within,FN missed hate,1,0,0.3011313676834106,0.398,3,9,,,dhamki dene wale rape ki paidaish hi hain saale
+IndicBERT v1,within,FN missed hate,1,0,0.2973500490188598,0.405,1,5,,,tujhe murder kar dungi main!
+IndicBERT v1,within,FN missed hate,1,0,0.2960456013679504,0.408,1,6,,,Pyaar sai hate kertay hain na
+IndicBERT v1,within,FN missed hate,1,0,0.3026661276817322,0.395,1,12,,,Ab Baat nafrat Ki hy Tw Soch Tera Kiya Hoga ... — feeling angry
+IndicBERT v1,within,FN missed hate,1,0,0.297328919172287,0.405,1,8,,,Baap nay Bharat mata ka rape kar diya
+IndicBERT v1,within,FP false alarm,0,1,0.5860489010810852,0.172,2,24,,,14 sal ka bachcha rape kar deta hai tum to ghotale Ki baat kar rahe ho. Mangadhant kahani banane se koi vishwash nahi kar lega
+IndicBERT v1,within,FP false alarm,0,1,0.5436093211174011,0.087,1,26,,,Saheb 60 sal.Kyabhutta. bun rahe tha or. Kabhi cort nahi gaye ho pahle pata karo rape ke 95%case forge hote he tum jaise media kanon banwaya
+IndicBERT v1,within,FP false alarm,0,1,0.54332035779953,0.087,1,20,,,Modi ji se phoocho 2014 se government job Mai joining kyoo nahi ho Rahi hai ....to Modi ji baag hate hai.
+IndicBERT v1,within,FP false alarm,0,1,0.6159666180610657,0.232,1,26,,,"Pehle apna illeteracy rate,poverty,terrorism ke baare Mei baat karo.Indians har chizei aage h Pak se.ek match Kya Jeet liya uchalne lag gaye"
+IndicBERT v1,within,FP false alarm,0,1,0.5702353715896606,0.14,1,20,,,Sukanya devi ka rahul Gandhi ne rape kiya or Poora pariwar gayab kara diya.. Uss bare me kuch bolna chahenge?
+IndicBERT v1,within,FP false alarm,0,1,0.7795636653900146,0.559,2,23,,,Pata hi kin logon ne inko nafrat ka injection laga diya hai. Hamesha Hindu- Musalman Aur nafrat ki batain to karte rahte hain
+IndicBERT v1,within,FP false alarm,0,1,0.7177696228027344,0.436,0,20,,,koi khoon ko holi nhi kheli ja rahi ji...apko galat dikhaya jata hai taki ap india ke against rahi
+IndicBERT v1,within,FP false alarm,0,1,0.7197209596633911,0.439,1,16,,,Inke bare me kya kahoge jo shadi kiye bina 12 saal ki ladki ka rape krte hain pic.twitter.com/pQt1jf40WL
+IndicBERT v1,within,FP false alarm,0,1,0.8025079369544983,0.605,1,16,,,phir kyon jhel rahe hain unko...he was Hindu Hriday Samrat till he gave hate speech...
+IndicBERT v1,within,FP false alarm,0,1,0.7536563873291016,0.507,1,43,,,@alamgirizvi @RealQueenSimren @Anjupra7743  koi Baba larkio aurto ko Bandi banake rakha hai media akh band rakhe.koi rape ho media akh band rakhe.koi udyogpati loot Raha Desh Kai paiso ko media ki akh band.unemployment faila hai industry ki Halat kharab media ki akh band.
+IndicBERT v1,within,FP false alarm,0,1,0.9546492695808412,0.909,1,14,,,Modi se phoocho oil kaa rate sassta hona chahiye....Modi ji bhaag hate hai.
+IndicBERT v1,within,FP false alarm,0,1,0.9065738916397096,0.813,2,60,,,Ajay s/o ramdas vill and post nawar ka nibasi hai jisne ek 6 year ki ladki rape kiya hai aur us ladki ke parents bahut ghabraye huye hai ajay ke ghar bale dhamki de rahe hai case bapas lelo nhi to ham kisi ko nhi chhodenge so ham sab gav basi ka nivedan hai ki us papi ko kadi se
+IndicBERT v1,within,FP false alarm,0,1,0.9133630990982056,0.827,1,18,,,har baat ma beti pe hi aakar rukti hai.  Apni ko parde me rkho dusrey ki rape kro.
+IndicBERT v1,within,FP false alarm,0,1,0.9604803919792176,0.921,1,11,,,Kya kya seh ke aayi hai hamari queen . I hate you
+IndicBERT v1,within,FP false alarm,0,1,0.9435105323791504,0.887,1,40,,,Dear @gulenaghmakhan main aapki bahut badi fan hu kyonki aapne mujhe aarshi aur mere #rikara jaise itni intense jodi di but still now i hate you kyonki aapne mere rikara ko mujhse 6in liya ab se main aapki fan nahi hun.
+IndicBERT v1,within,TN correct not-hate,0,0,0.3762249946594238,0.248,1,9,,,ISSE KEHTE HAIN AANDH BHAKTI ....          HATE FOR SHILPA SHINDEY
+IndicBERT v1,within,TN correct not-hate,0,0,0.4520612061023712,0.096,1,12,,,tum kaisi aurat ho...SRK ko hate karti ho?? Shame on u..
+IndicBERT v1,within,TN correct not-hate,0,0,0.3336257338523865,0.333,2,22,,,Jinke Ghar me laterin na ho unki ladies ke Saath yadi rape hota hai to http://F.I.R.na  ho Aisa law banana chahiye STOPPED RAPE.
+IndicBERT v1,within,TN correct not-hate,0,0,0.3694577813148498,0.261,1,26,,,Abhi toh ye deal poori bhi nahi huyi pehle hi haar gaye yaar....terrorism band kya karna hai cricketers ne hi bomb phodne start kar diye https://twitter.com/chintskap/status/875447907922567170 …
+IndicBERT v1,within,TN correct not-hate,0,0,0.3722835481166839,0.255,1,27,,,"Tab to tumhare hisab se pakistan sabse shant desh hai,bharat me kabhi koi atankwadi hamla nahi hua, aur rape case to bharat me kbhi huye nhi https://twitter.com/Ram92789658/status/915235630975557632 …"
+IndicBERT v1,within,TN correct not-hate,0,0,0.302732914686203,0.395,1,10,,,Sab hate hi karte hai iss pyari si bachhi ko..
+IndicBERT v1,within,TN correct not-hate,0,0,0.308415949344635,0.383,1,21,,,@Shivsena_Amit Sir jitni Protest SRK Ki movies ke time karte ho kabhi Nirbhaya Rape cases me karliya karo desh ka Bhala Hoga https://twitter.com/akshayerathi/status/818772481528004613 …
+IndicBERT v1,within,TN correct not-hate,0,0,0.3014139235019684,0.397,2,15,,,lekin aaj Kal to Gujrat ki mataon ka gang rape Kar rhe aapke tuchhe karyakarta
+IndicBERT v1,within,TN correct not-hate,0,0,0.3147498071193695,0.371,0,21,,,Shaheedon ki khoon ka soda ns hona TAhir ul qadri ki azeem tarbeat ka nateeja hi we proud of bring qadriii
+IndicBERT v1,within,TN correct not-hate,0,0,0.3039073944091797,0.392,1,13,,,"Baba bhee nahi hai. Padhaa likhaa aadmi ""intellectual terrorism"" kar raha fizool mein."
+IndicBERT v1,within,TN correct not-hate,0,0,0.2977954447269439,0.404,3,8,,,Ghatiya Gandagi Gairgujri Gulchharrey udaney walo ...Hatred Pungi
+IndicBERT v1,within,TN correct not-hate,0,0,0.3005032837390899,0.399,1,7,,,koi chocolate kese hate kr skta hai..??
+IndicBERT v1,within,TN correct not-hate,0,0,0.29705610871315,0.406,1,6,,,kya chahiye unse hate k liye
+IndicBERT v1,within,TN correct not-hate,0,0,0.2981655895709991,0.404,0,9,,,Jiss tarhan woh Hina ka stuff phanek rahi thi
+IndicBERT v1,within,TN correct not-hate,0,0,0.2977587878704071,0.404,2,9,,,Niazi HaramKhor Pakistan ko Terrorism mai dhkail raha hai
+IndicBERT v1,within,TP caught hate,1,1,0.5040709376335144,0.008,2,20,,,"Apni ""Bharat Mata"" ki har aurat ka tum rape karna chahte ho aur kehte ho aazadi humse chahiye? Arrey kameenon,... http://fb.me/2qfox6epo"
+IndicBERT v1,within,TP caught hate,1,1,0.5127366185188293,0.025,3,24,,,"Awwww fir Bura Laga?? Bas kal tak aankh na fod liyo. Live rape dekh le Pakistan ka, legal bhi hai ye, rape obsessed chutiye"
+IndicBERT v1,within,TP caught hate,1,1,0.6106846332550049,0.221,1,25,,,kuch din pehle ek news aya tha ...PAKISTAN m ek ladka..murgi ko rape karte pakda gaya..tum logo ko or kuch nhi milta kya
+IndicBERT v1,within,TP caught hate,1,1,0.5414919257164001,0.083,2,27,,,"Janta ka palayan, rape murder nahi dikha jo hua galat hai but uske liye kaun zimedar hai army ki sachai kya kch bhi jante bus TRP badhao"
+IndicBERT v1,within,TP caught hate,1,1,0.6474639773368835,0.295,1,21,,,Tum sare BJP wale mil kar mahilao ka rape karte ho aur empowerment ka gana gate ho. Sharm nahi aati tumko?
+IndicBERT v1,within,TP caught hate,1,1,0.7239803075790405,0.448,1,28,,,Kitne Bangladeshi k khoon se tumlogo ka haat ranga h ye pata h? Kitne bangal women ka rape kiya tha tere army ne pata h?? Insaniyat ki basy
+IndicBERT v1,within,TP caught hate,1,1,0.7598880529403687,0.52,2,25,,,What's wrong with Sapna... Samjhti kya hai... After Hina I hate her... Kitna attitude hai... Karna kuch nahi hai bas bakwas karni hai.... #BB11
+IndicBERT v1,within,TP caught hate,1,1,0.9361769556999208,0.872,2,21,,,"#BJPinsultsBapu Subhash Chandra Bose ji, Bhagat Singh ji, Azad ji real krantikari the Gandhi was cunning selfish politician. I hate gandhi"
+IndicBERT v1,within,TP caught hate,1,1,0.7966133952140808,0.593,1,22,,,Pehle ye bhi dekh lo 72% women k sath rape hota h Pakistan me. Ye mai nhi tumhari khud ki survey kehta h pic.twitter.com/ltkJTjoMsd
+IndicBERT v1,within,TP caught hate,1,1,0.9431244134902954,0.886,1,21,,,I hate these muslim molvis n hindu babas jo dusro ki khushiyon Ko daba ke khud itne maje lete he chupke.
+IndicBERT v1,within,TP caught hate,1,1,0.951199233531952,0.902,2,10,,,"I hate this ""ngalusa mina"" nonsense. Inobuphuma silwe phakathi nje."
+IndicBERT v1,within,TP caught hate,1,1,0.9517711997032166,0.904,1,9,,,@SonaliFan Yeh achcha nahi kiya yaar aapne. I hate you.
+IndicBERT v1,within,TP caught hate,1,1,0.95908784866333,0.918,5,23,,,"are chor saale lalu, mamta,rahul gandhi, vadra ye saare bhi junda hai abhi, bolti band ho gayi gandu teri hate u . Rascal"
+IndicBERT v1,within,TP caught hate,1,1,0.9608005285263062,0.922,1,19,,,Bhai kaya choice h wha . India hate arshi khan . I can bet . Jutte na parre iscey kahe bahar jakee
+IndicBERT v1,within,TP caught hate,1,1,0.9534779191017152,0.907,1,14,,,Muze bhi lgta hai...Achha hua yr yehi dono hue...I hate these both
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.4392836621607508,0.121,1,22,,,"@Joydas @NSaina Are you mad!
+Hey if there was a attack then what could you say?
+He is PM stupid, not a common andolanjibi"
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.4092814700133398,0.181,0,13,,,@ramasingh_ @alanwilkins22 @BLACKCAPS @TheRealPCB Tum fikar na Karo Ham ek din tumhari pichwade mein bhi ghus aaenge
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.4585646139553162,0.083,1,49,,,"@nishantpant_in @NSaina Why don't we question the PMO which rejected twice the request to transport  armed forces man  by air and not by road n eventually that led to pulwama attack 2019 on 14th February.
+This PM is concerned only for well being of self no other life matters for him."
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.4322451223844374,0.136,0,26,,,"@mrGlassHfEmpty @pakistan_untold One of the most foolish characteristics in pakistani ,they incert religion into everything. Religion is someone's person matter, why it needs to be disscuss everywhere"
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.4731346316680557,0.054,0,40,,,"@LadyVelvet_HFQ One day Inshallah will come to us too, when the Muslim will rule the whole world Amin
+Like today we are being played with our religion, tomorrow beta be ready while on the road went around saving your god... Inshallah
+￼"
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.3627808635381712,0.274,1,12,,,"@Joydas @NSaina So you were expecting attack?
+And now you are feeling laid down."
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2763198500460371,0.447,0,14,,,@NooriKhanINC @khanumarfa tum log ko twitter ka recognition jaroori lagta hoga.... Pappu neta Kae pappu samarthak.....
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.357089015554922,0.286,0,21,,,@lindyli She’s also the one I’d love to see hung out to dry for her obvious role in 1/6. “It’s 1776!”
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.320708631204029,0.359,0,14,,,@anujakapurindia Khud na thoda mental checkup kar wao shyd thoda bolne ki tameez a jaye
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.353620617118795,0.293,0,2,,,@Puneetdan @NSaina tu bhi
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2524086883478082,0.495,0,0,,,@Kushguptaa @naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi 😂😂 https://t.co/3GQ34ngbV4
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2261849301715776,0.548,0,23,,,"@lindyli Keep saying…people like Boebert would lose their jobs if they worked anywhere else.  But, somehow, Congresspeople are held to a lower standard."
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2524086883478082,0.495,0,0,,,@Rohan06551430 @Ahsan1azmi 🤣🤣🤣
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2482047604666781,0.504,0,20,,,"@domemm @_sabanaqvi @CedricPrakash Dominic, what's your response to the nun's accusation against franco mullakal. Do something good atleast at this age !"
+TF-IDF + LogReg,cross,FN missed hate,1,0,0.2524086883478082,0.495,0,0,,,@ATdsingh @DChaurasia2312 यही गंगा जमुनी तहजीब है जी।
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5168736955488658,0.034,0,22,,,"@tmkrishna @munawar0018 That would be great! TM, make it happen, because it is important for all of us, for freedom of speech, for democracy."
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5110515345341838,0.022,0,16,,,"@MajorPoonia So big deal 
+As a guy with army background you actually are talking about all this?!"
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5223483844865249,0.045,0,3,,,@Bipinkrfan @rashtrapatibhvn More than her
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5277586120470761,0.056,0,32,,,"@muleekayparatha @khanumarfa Was she happy with her twits and when twitter suspended her account.....every mother prouds for his her kid....whats nobel you uttered hear,  this even didnt or never happen to muleekayparathe"
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5009206577500045,0.002,0,14,,,"@__srkian555__ @SRKian_Arijit @iamsrk Bhai yeh waisa hi support hai, Jaise SRK ki movies dekhne jaate hai log..."
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.560914390742433,0.122,0,42,,,"@RahulGandhi ""We have to bring Indians together once again. 
+We have to bring all our communities, all our religions, all our people, all our states, together again. 
+We must say: ENOUGH! We are not many religions, many castes, many states, but ONE country""
+
+https://t.co/UCJtCR6n1x"
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5495857184881242,0.099,0,6,,,@BefittingFacts @desimojito That’s the Template they have.
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5755862872361608,0.151,0,40,,,"@ARanganathan72 As Indians, our generation should be proud of honouring our ancestors who did supreme sacrifices for saving #Hinduism in the Mughal region.Thanks to #Hindus who made it possible through voting rights.
+""We are the democracy""🇮🇳
+#Democracy
+#Varanasi
+#KashiVishwanathCorridor
+#PMModi"
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.5837666365496902,0.168,0,3,,,@Karthik07720496 @poornibv Thx much #MaskUp
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.537126579104774,0.074,0,36,,,@Manva_tweets @zoo_bear Watch the original video and you will see that this is not a hole in the windshield. This is a shadow that disappear as the car gets closer to hitting the farmer in front of it
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.6414859783825098,0.283,0,14,,,"@lolsaalam @AskAnshul Kyu??
+
+Aisa kabhi kisi hindu ne kisi hindu ladki ke saath nahi kiya kya??"
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.6207516374685957,0.242,0,29,,,Every #GandhiJayanti I just feel so uneasy these days because my mind inevitably goes to the likes of those sitting in Indian Parliament who admire his assassins. Jai Hind
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.6679658385783149,0.336,2,23,,,"Padma Award for a person who was banned from Twitter for her hate speeches against Muslims.
+Honouring such people is honouring hate. Period."
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.6949919729707136,0.39,1,38,,,@YasirRasool17 @alanwilkins22 @BLACKCAPS @TheRealPCB @BCCI So you proved yourself that you don’t have money and blame others for that .. you people will never learn from your mistakes and i should not say it but I tell you this you people deserve this ..
+TF-IDF + LogReg,cross,FP false alarm,0,1,0.6020489378598775,0.204,0,4,,,@vishwakantnoida @naveenjindalbjp @kapil73vats @DelhiPolice @CPDelhi @LtGovDelhi This is new bjp https://t.co/bz2lfikgGA
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.37272495531897,0.255,0,16,,,"@PaulNuki @fryan They've avoided stigmatising, but they'll be Sigmatising at some point.
+
+&lt;getting coat&gt;"
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.4218155922486147,0.156,0,14,,,@rashtrapatibhvn Congratulations Kangana... Well deserved award.. She is a warrior tigress .. My favourite 😍 Keep winning 🏆 https://t.co/YMokN3135U
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.4750594413342125,0.05,0,46,,,@MohdAma63117464 @MajorPoonia If one person i hv to consider from mughal i will choose only n only akbar....being an islamic ruler he also praised other religion too...and that was his greatness...but none other mughal rulers did a bit of it rather start demolishing other religion...
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.4736364454011969,0.053,0,36,,,"Going by this trend, @iitbombay will invite Suresh Chavhanke, Yati Narsinghanand and Shambulal Regar for next year’s event. And we will continue to act surprised when the next Ram Nagesh Akubathini comes out of this college. https://t.co/obX24bwm9v"
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.4452869179935249,0.109,0,24,,,@NooriKhanINC @khanumarfa Is there any such provision for punishment for those are honoured with Padma awards due to their great achievements and service to the nation? https://t.co/IOKRSV09hc
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.30252215430105,0.395,0,3,,,@ghosh_gopali Thank you #MaskUp
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.3201602304537905,0.36,0,43,,,@ram71krv7 @AudreyTruschke why are you obsessed with Afghanistan . do u want to join Taliban? think about your own country where lots of people died due to unavailability of medical facilities. do u know what is the medical bill of corona. raise these issues not Taliban.
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.3577100181932255,0.285,0,20,,,"If 'Nathuram Godse Zindabad' is trending in India, will the pertinent question be asked. Who is radicalizing the Indian Hindu ?"
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.3571139199696845,0.286,0,25,,,"@AskAnshul We can't control Seperatism &amp; Fundamentalim without repealing Colonial Laws, enacting Stringent Penal Code &amp; implementing #UniformEducation &amp; #UniformCivilCode
+
+#RightToEqualEducation
+#UniformEducationCode
+#OneNationOneSyllabus
+#OneNationOneCurriculum
+#OneNationOneEducationBoard"
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.3390704090259298,0.322,0,5,,,@lolsaalam @AskAnshul What progress in #NikitaTomar case?
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.1541343275745818,0.692,0,11,,,@khanumarfa religion can take u to places you don't wanna go. https://t.co/Qt6tS2QEbq
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.2438858627515823,0.512,0,32,,,@Khhabrilal @pakistan_untold @ICC @ICC Will you allow 'Maha Aarti' by Indian players in the upcoming matches? @BCCI Please ask our players to perform aarti instead of asking them to take a knee for matters unrelated to India. @ARanganathan72
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.2531279426934459,0.494,0,9,,,"We Love our S-I-M-B-A 🦁
+
+#WeStandWithAryanKhan https://t.co/8eo4npXd2o"
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.2528763958072382,0.494,0,3,,,@kunalkamra88 Country need Detol
+TF-IDF + LogReg,cross,TN correct not-hate,0,0,0.2524086883478082,0.495,0,0,,,@vijaysyadav1972 @naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi 🔪🐄🤫
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5324556512014292,0.065,0,17,,,@Modijivi @DChaurasia2312 To bhai tumhe kisne rok rakkhahe.. Tumhare DNA expert mohan bhagwat aur mudi kya bolenge is bareme
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5006754292351006,0.001,1,16,,,"@shoaib100mph No..Pak is killing Pak cricket, ofcourse everyone wants security which is not there in Pak"
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5177253118880971,0.035,0,11,,,@SameerGojri @RanaAyyub India me kyo ho chale jao Afghanistan apni mom ko lekar
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5281237648356151,0.056,1,6,,,@PathanRaisKhan @ReallySwara Masjid ta  chutiya pahle se udar
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5034653008711215,0.007,0,27,,,@ramasingh_ @BLACKCAPS @TheRealPCB these words are coming from those whose tanks and weapons are left in Afghanistan and his spy #Kalboshan is caught red handed from #Balochistan..shame on you..
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5855001643302263,0.171,2,42,,,"@wicked_asr @ReallySwara Many temples were made by Mughals, unfortunately in WhatsApp, you have not received a single name of temples built by Mughals.
+
+Hopefully, now you will search and read. I hope you will realise this hate is a political hate, based on lies."
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5506624897999901,0.101,0,24,,,@mrGlassHfEmpty @pakistan_untold You could not have spoken a greater truth.  Aren't we seeing this everywhere around us?  Namaaz IS INDEED a way of marking territory.
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.566578290308353,0.133,0,11,,,@Pranay7even And believe me he is right I am with him always
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5777058427033394,0.155,2,33,,,"@lindyli Lauren Boebert must be investigated for her tweet about Pelosi's location on Jan 6. She was obviously trying to direct an attack on her &amp; should be charged with attempted murder.
+#BoebertIsADisgrace
+#BoebertKnew https://t.co/e5b3JuNGli"
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.5515739140466654,0.103,1,42,,,"@wicked_asr @ReallySwara Hisotry ko leke mat peeche pado , aagey bado. Hitler Christian tha aur usne kitne Jews ko maar diya, tu kya abhi bhi jews log christian log se nafrat karte hai. Instead of talking aboiut science technolgy , we are only concerned abiyt religion"
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.6997847180462781,0.4,2,29,,,"@naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi Tumhari zuban ne, aaj tumhe 
+na party ka rakkha, na samaj ka chiiii😡Kitni nafrat hai tumlogo ki soch me,videsh me hum hindustaniyo ka, naam badnam kar diya."
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.6112674506433038,0.223,0,12,,,@jangra_somya @TSP_President @TSP4India Faisla kis base pr hua ye batana pehle koi sabut nhi tha..... 😂😂
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.648091463943294,0.296,1,7,,,@proudjihadi786 @total_woke_ Ghar me ghuske gand mar denge bhsdk
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.6852499555512075,0.37,1,49,,,"Almost every third tweet in my mentions is asking me to either apologise on behalf of the Taliban or condemn them. Those who have unleashed the worst kind of savagery in India, enabled by the government have the temerity to make this a test of our patriotism. Dafa ho"
+TF-IDF + LogReg,cross,TP caught hate,1,1,0.6129892254435674,0.226,1,43,,,"@majorkulwant @NSaina You should be ashamed of yourself Major for such disgusting words as we are ashamed of you!
+You're NOBODY to tell her what to do.
+What standards in the name of Major you possess, i doubt.
+Big shame on you (worthless) Major"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.3721810579299927,0.256,0,14,,,"@ReallySwara One should have a ❤ to sympathize on !! So, it's not applicable to you.... 🤧"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.4345383048057556,0.131,0,20,,,@Santosh00621241 @KapilMishra_IND Kisi Ki bhi nahin phati yah to sab Ko pata hai pthayan  se pahle tum jaise log kya karte hain
+XLM-RoBERTa,cross,FN missed hate,1,0,0.4752858281135559,0.049,0,18,,,"@AskAnshul Shantidut se pyar karoge to
+Yahi hoga ..
+En logon se dur rahna chahiye
+Bhagwan aapko thik kar de ..🙏"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.4119508266448974,0.176,0,27,,,"@Tauheed34123367 @geertwilderspvv @NupurSharmaBJP Badhiya... Dharam guru ho galat to kaho...,, It was tit for tat... Arab countries were not knowing what other side said so listen whole speech n judge"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.468252420425415,0.063,0,30,,,"@KartikJain1999 @ReallySwara @BalakAgyani @ShineHamesha @KaptionTom @Foramshah_93 @BilluPsycho In Islam, masjid Allah ka ghar nahi hoti hai sirf namaj padane ki jagah hoti hai, sadak, plateform, bus stand, stadium par kapda bichhaya - namaj padi - kapda haraya - kaam khatam."
+XLM-RoBERTa,cross,FN missed hate,1,0,0.2891809046268463,0.422,0,5,,,@ARanganathan72 Now kashi vishwanath mandir...🌀🔱🙇🏻‍♀️🙏🏻 #HarHarMahadevॐ https://t.co/k2b0cMRMTS
+XLM-RoBERTa,cross,FN missed hate,1,0,0.3321078717708587,0.336,1,12,,,"@Joydas @NSaina Damn  pv sindhu is also  in this shit  
+Unfollowing her right now 
+@Pvsindhu1"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.3481978178024292,0.304,0,13,,,@snehasneha173 @ReallySwara Madam ji babri masjid ka prman tha kya ram mandir ka prman mila
+XLM-RoBERTa,cross,FN missed hate,1,0,0.3200732469558716,0.36,0,5,,,"@RahulChowdari3 @naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi And we support you, cow🌹"
+XLM-RoBERTa,cross,FN missed hate,1,0,0.3461516797542572,0.308,0,19,,,@Anilcherukara @HumbleRekha U should go to China and see what happens there...u will some crying and running back to India
+XLM-RoBERTa,cross,FN missed hate,1,0,0.2499248683452606,0.5,0,9,,,@jamal_0786 @naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi Kya Indian Muslim ka gardiyan hay Arab just asking
+XLM-RoBERTa,cross,FN missed hate,1,0,0.1939836740493774,0.612,0,2,,,@iTaimurOfficial @pakistan_untold @UNewsTv chhutku lullah
+XLM-RoBERTa,cross,FN missed hate,1,0,0.26717409491539,0.466,0,2,,,@sachya2002 @RanaAyyub 6 feet under 🤲
+XLM-RoBERTa,cross,FN missed hate,1,0,0.2361767590045929,0.528,1,3,,,@RanaAyyub Haha! Dafa Ho 🤣👯
+XLM-RoBERTa,cross,FN missed hate,1,0,0.2643533647060394,0.471,0,8,,,@samal_deepti @KapilMishra_IND Hindutva is as Hindu as KKK is Christian
+XLM-RoBERTa,cross,FP false alarm,0,1,0.5618341565132141,0.124,0,49,,,@AudreyTruschke Americans better practice instead of preaching.Texas is in dire need of a reminder that it still is American state where a fundamental right over one's body and health is being denied to women and it's being made into a money spinning business.Go correct that first.
+XLM-RoBERTa,cross,FP false alarm,0,1,0.542324423789978,0.085,0,26,,,"@khanumarfa Grapes are sour madam, nothing else to tweet, why dont you don the blue burkha and help the Afghani women if you really cared for them!"
+XLM-RoBERTa,cross,FP false alarm,0,1,0.5531126856803894,0.106,0,26,,,"@i_desi_surya @AskAnshul Well said Surya. It’s the truth. Hindus should learn focus, purpose, dedication and a whole lot of other things from them. They have asli jazbaa"
+XLM-RoBERTa,cross,FP false alarm,0,1,0.547367513179779,0.095,0,42,,,@ramasingh_ @alanwilkins22 @BLACKCAPS @TheRealPCB I thought it was India who was back stabbing Pakistan. Raw links were found in an attempt to root cricket out of Pakistan. Also to mention that one is able to see clear picture with the bias glasses put aside. Just saying...
+XLM-RoBERTa,cross,FP false alarm,0,1,0.5707692503929138,0.142,0,14,,,@rashtrapatibhvn Congratulations Kangana... Well deserved award.. She is a warrior tigress .. My favourite 😍 Keep winning 🏆 https://t.co/YMokN3135U
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6264787316322327,0.253,0,31,,,"@Samriddhi0809 And you are helping him out to spread the message and giving it to a communal colour?? This is not called journalism, its an effort to destabilise my country! Be sensible."
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6450095176696777,0.29,0,32,,,"@SyedAbd23421225 @HumbleRekha You can’t tolerate a tweet on your religion, god, and burn everything when someone tweets. When you don’t have tolerance then you should not utter other religion gods so casually."
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6095319390296936,0.219,0,50,,,@irfhabib Historians should educate with counter narratives to show everyone persecuted and everyone suffered. So history is not a choice for a future way f life. Yesterday I heard about the 1947 Jammu M massacre from the Karan Thapar news. It s a good counter to the misuse of the KP one.
+XLM-RoBERTa,cross,FP false alarm,0,1,0.60903000831604,0.218,0,38,,,@Praveen_Bablu @KumarOm15170519 Lekin tum log zinda rahoge kiuki maarne waale bhi tum hi log hoge. Mein kisi God ko bura nhi khne waala hu Bhagwan achhe h Allah bhi achhe h aur Jesus bhi bas teaching ka farak hota h.
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6372843980789185,0.275,0,37,,,"@DearthOfSid @iitbombay IIT Delhi invited ashok swain, manpreet kaur and the likes...
+
+that reminds me...that girl has been off the radar for a while now...gurmehar kaur...kya hua usko...how come no controversy there for this long??"
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6984841823577881,0.397,0,53,,,"@DrGauravGarg4 You know what now I know why many of the prominent educators decided not to work with you and went their own way,
+
+You decided to pick this issue not because it's important but because it's sensational &amp; the last line is deliberately written just get more attention. 
+
+We get it😁"
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6833821535110474,0.367,0,28,,,"@manojmuntashir 😳😳😳
+I didn't expect this from Manoj Muntashir.
+He is just polarizing the society which is also already very polarized.
+Mughals was a pride history of Akhand Bharat."
+XLM-RoBERTa,cross,FP false alarm,0,1,0.6935286521911621,0.387,0,37,,,"@_sayema Those who disbelieve in our verses we'll drive them into a fire. 4:56
+
+Polytheists are the worst of creatures. 98:6
+
+Men are in charge of women by right of what I have granted one over the other. 4:34
+
+उमर भर बेचारी सायमा यही भूल करती रही
+धूल चहेरे पर थी, आइना साफ करती रही
+
+WDTT"
+XLM-RoBERTa,cross,FP false alarm,0,1,0.687178909778595,0.374,1,39,,,"@Kannanns @AskAnshul Sir, it's our fault. When Hindus were killed in Bangladesh, we should have done the same protest with violence over Muslims. Muslims are teaching the same to us over decades, but we people are sleeping over the period."
+XLM-RoBERTa,cross,FP false alarm,0,1,0.7107605934143066,0.422,1,31,,,"@AskAnshul I request all Hindus to stay united and defensive against Islamic Terror ,
+Otherwise this could happen in India also ,
+
+As an Ex - Muslim , I would feel safe in a Hindu Rashtra ."
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.3704748153686523,0.259,0,14,,,@derekobrienmp Wishing you a speedy recovery! Happy to send books to read during the isolation 😁
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.4038813412189483,0.192,0,23,,,@khanumarfa As if Afghanistan was prospering under American occupation. 🧐 seems like Afghanistani people r backing Talibans. So let them chose whatever they want. #Afghanishtan
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.3842968940734863,0.231,0,22,,,@MarvellCap @AudreyTruschke Might be #translator said him of fear you are running very good #Dictatorship #by selling out #india to #ambanis #Adhanis and #moblyinching
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.3571110069751739,0.286,0,14,,,@derekobrienmp Wishing you a very speedy recovery Sir. Have to fight a long battle ahead.
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.3561742305755615,0.288,0,13,,,"We have neither forgotten their martyrdom nor can we ever forget🙏
+#शौर्य_दिवस  #JaiShreeRam  #Ayodhya https://t.co/L2nwXFMQY1"
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2836392819881439,0.433,0,17,,,@SRKian_Arijit @iamsrk Agar main kal drug's bechu ya sevan karu to kya aap bhi mere sath khade honge
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.3165560364723205,0.367,1,10,,,@realexmaple @RyanM58699717 @HansMahncke @FOOL_NELSON @wakeywakey16 @CyberWonton @codyave Wickedness and evil mutate's in directions large and small.
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2995982468128204,0.401,0,7,,,@Kruti123456 @khanumarfa Exactly skill to gujarat se aata hai
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2711354196071625,0.458,0,0,,,@PragathShukla @naveenjindalbjp 🤪🤪 https://t.co/6cMoYj4Xa8
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2694675624370575,0.461,0,0,,,@naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi قاندو انا بكرا يجي انديا دقدق ماما انتا
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.1804269552230835,0.639,0,1,,,@AshokShrivasta6 @ReallySwara Agree
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2205468118190765,0.559,0,2,,,@NooriKhanINC @khanumarfa मतलब ट्विटर ICJ CJI सब है
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.2015310823917389,0.597,0,0,,,@KapilMishra_IND 👏👏👏👌👌👌
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.1570383608341217,0.686,0,1,,,@pakistan_untold @Srii_Mv see ......
+XLM-RoBERTa,cross,TN correct not-hate,0,0,0.1272121220827102,0.746,0,1,,,@Deepamjyoti_Das Right 🖐️
+XLM-RoBERTa,cross,TP caught hate,1,1,0.5458526611328125,0.092,0,28,,,@RanaAyyub Now you are the happiest woman in the world. Get packed up in burka and go embrace  your Tslibani brothers. Plan with them for  next toolkit fir India.
+XLM-RoBERTa,cross,TP caught hate,1,1,0.5072389841079712,0.014,0,17,,,@Dhiraz_mehta To सिक्योरिटी ga**d। Mara ne ke liye। बढ़वाई है 😂😂😂 सिक्योरिटी वो लेता है जिसकी gaa___***d। Fati ho। 😂😂 Or सिक्योरिटी किसने li h sabko pata h 😀😆😂😂
+XLM-RoBERTa,cross,TP caught hate,1,1,0.53496915102005,0.07,0,33,,,"@VanshKu22281811 @shantanunandan2 Yes, charaka samhita indicates much less politically divided South Asian landscape before followers of professed their sins in Christ or Muhammad. Abrahamic religions have historically sought to divide Ayurvedic enlightenment, capitalise trade, knowledge. https://t.co/xegMc1RPv0"
+XLM-RoBERTa,cross,TP caught hate,1,1,0.5576874017715454,0.115,0,41,,,@amar1301 @DChaurasia2312 Bhai kaunsi history padh li tumne? WhstsApp university se graduation ki hai Kya? Akbar ka itihaas padh lo thoda theek se. Ab Jodha Akbar movie dekh kar gyan prapt kare koi toh bhai kya karein ? https://t.co/Wnf6u1MWkK Akbar ko Ghazi kyon bola gaya ?
+XLM-RoBERTa,cross,TP caught hate,1,1,0.5426540374755859,0.085,0,25,,,"@pramitheus @NSaina That's not how it should be, actually we'll sopn kick out those who are making the nation unsafe,  i.e. ppl like u."
+XLM-RoBERTa,cross,TP caught hate,1,1,0.6137743592262268,0.228,1,35,,,@Go_Movie_Mango Tum chutiyon ko koun samjhae ... Masjid me Allah aur Mandir me bhagwaan Nahi hote.. god har insaan ke Dil me hota hai.. agar ishwar (Allah) Dil ma Nahi hoga to sirf nafrat hogi Dil me.
+XLM-RoBERTa,cross,TP caught hate,1,1,0.5892729759216309,0.179,0,49,,,"@SyedAbd23421225 @HumbleRekha Says the one whos religious faith doesn't allows women to even visit there own mosque for namaz.....jao bho-sri wale chicha kahi jake bakri k saath muh kala karo yaha gyaan mat s'hodo...by the way why there's only allah why there's no ""ALLHEE"""
+XLM-RoBERTa,cross,TP caught hate,1,1,0.609882652759552,0.22,3,41,,,"@TeamBaan14 @virsanghvi 😂😂😂😂
+You Anti Nationals cry when Terrorists are encountered in batla house.
+
+You Traitors support Tukde Tukde Gang
+
+You Radicals tried to save 26/11 Terrorists by blaming the attack on hindus/rss &amp; published book 26/11 rss ki sazis.
+
+And Yet YOU blame sanghi 😂😂"
+XLM-RoBERTa,cross,TP caught hate,1,1,0.625827968120575,0.252,0,16,,,"@NSaina Go sleep and focus on your sports. Btw, I haven't watched your biopic movie yet."
+XLM-RoBERTa,cross,TP caught hate,1,1,0.6135757565498352,0.227,1,35,,,@NSaina Have you ever spoke in support of Hathras rape victim? Or did you support Farmer protest? Where was your nationalism when China intrude our nation? So stop condemning Punjab government because of Drama queen PM. https://t.co/8zBSxkoneS
+XLM-RoBERTa,cross,TP caught hate,1,1,0.6525681018829346,0.305,0,49,,,"@Konkani_babu @ARanganathan72 And we shouldn’t hold our breath…Cz they r not inclined to.
+
+They r taught by the maulanas that they r the best. Everything they want should be theirs &amp; it’s ok to take from kuffars.
+
+The worse mistake by our ancestors…never reading the Peaceful book."
+XLM-RoBERTa,cross,TP caught hate,1,1,0.6570496559143066,0.314,2,49,,,@Vitthal_Teedi Isme humare shariya law kehte hai aise logo ko phansi pr latkana chahiye ya phir janta uspr pathere barsa kr wahi mardena chahiye taki dusre log ise sabak hasil kare r tum jaise kuttey insan ki chakar me baithe rehte hai kanon k bharose jisme kayi saal nikal jate
+XLM-RoBERTa,cross,TP caught hate,1,1,0.7234358787536621,0.447,0,32,,,"@Heyniff @shantanuadv0009 I read about him , i read Quran and Hadith too , you know what was the outcome? I renounced Islam im an atheist now 🤣 
+I suggest all muslims go and read about him!"
+XLM-RoBERTa,cross,TP caught hate,1,1,0.6706850528717041,0.341,0,34,,,"@RahulGandhi Hindutvawadis are ruining India’s future and turning us into a fascist country.
+
+Every Indian, especially Hindus must call for strictest action against these genocidal murderers. Put them behind bars.
+
+Save India from Hindutvawadis https://t.co/2Hldu8TN3N"
+XLM-RoBERTa,cross,TP caught hate,1,1,0.7111541628837585,0.422,0,17,,,@ashokepandit @BaljitBakshi This person is from dog breed. We respect all Sahida from our respected Army and defence forces
+MuRIL,cross,FN missed hate,1,0,0.1829259842634201,0.634,0,3,,,@azeema_1 @pakistan_untold Kutton Mae talent ?
+MuRIL,cross,FN missed hate,1,0,0.2555418908596039,0.489,1,31,,,@DearthOfSid @iitbombay Engineering institute also losing its credibility by inviting such hate mongering people to their institute and what will they provide to students? That  2000 rs note have nanochip or mujhe drug do..
+MuRIL,cross,FN missed hate,1,0,0.2628931701183319,0.474,0,9,,,@sona_520 @ReallySwara I appreciate tht u admit tht u r jahil👍👍
+MuRIL,cross,FN missed hate,1,0,0.1975433975458145,0.605,0,42,,,"@IamSubhash242 @NSaina No we won’t support farmer protest coz Punjab farmers are not the only farmers India has. When all itger states farmers were happy about the farm laws, why only punjab has prob? Coz they are middlemen and political men NOT farmers."
+MuRIL,cross,FN missed hate,1,0,0.188964694738388,0.622,0,16,,,Fuck islam and all those who remain quiet while that barbaric ideology fucks up our country.
+MuRIL,cross,FN missed hate,1,0,0.1762054562568664,0.648,0,16,,,@AlphaYogii @LadyVelvet_HFQ These pictures are from Bangladesh.. Islamophobic Hindus never Allowed to do prayer in India like this...
+MuRIL,cross,FN missed hate,1,0,0.1780449002981186,0.644,0,10,,,@MIKhan29503357 @Pranay7even Mewati tujhe nahi bulaya Arabs ne? Where is your ummah?
+MuRIL,cross,FN missed hate,1,0,0.1780296117067337,0.644,1,17,,,@azaz_ahmad330 @LadyVelvet_HFQ Yes I agree.. please cancel the contract.if u favour in mandir then Allah will punish u .
+MuRIL,cross,FN missed hate,1,0,0.1768656522035598,0.646,0,0,,,@IYCPunjab @ANI 👍
+MuRIL,cross,FN missed hate,1,0,0.1764985471963882,0.647,0,43,,,"@NSaina Once again, the WhatsApp cut-paste #toolkit at work?!
+
+No one attacked him; see the video first before posting more! The slogan-shouting crowd is carrying BJP flags (ie, his own supporters).
+
+Painful to see you turn into a blind propagandist, Ms Nehwal."
+MuRIL,cross,FN missed hate,1,0,0.1733200401067733,0.653,0,9,,,@Bobbycal @_sabanaqvi Guruji ye sab chodiye ye batiye Godse Murdabad hai
+MuRIL,cross,FN missed hate,1,0,0.1751897782087326,0.65,0,17,,,"@RanaAyyub No one can compete with you, so don't worry. You are the undisputed champion in this 😅👍"
+MuRIL,cross,FN missed hate,1,0,0.1748314797878265,0.65,0,0,,,@abetumatja @Ayush_Shah_25 @ReallySwara @zoo_bear बहुत से जैन मंदिरों को भी हिन्दू मंदिरों में परिवर्तित किया गया है।
+MuRIL,cross,FN missed hate,1,0,0.1744049787521362,0.651,0,11,,,@Joydas @NSaina Rs 2 credited to your ac no xxxxxxx for your outstanding chaplusi😂
+MuRIL,cross,FN missed hate,1,0,0.1740183681249618,0.652,0,3,,,@Joydas @NSaina mast hai guru.....
+MuRIL,cross,FP false alarm,0,1,0.5954824090003967,0.191,0,27,,,"@SumitkadeI Vo apne bete ka naam kuch bhi rkhe ...?? Tum apne bete ka naam puch ke rkhoge kya kisi se ...?? 
+
+Gjb ka jahil log hai es desh me"
+MuRIL,cross,FP false alarm,0,1,0.5072486996650696,0.014,0,0,,,@naveenjindalbjp ١- جزاكم الله خيرا على غيرتكم على نبيكم ﷺ نصرت الرسول ﷺ بالاقتداء به يقول الله تعالى مخاطبا نبيه ﷺ ( ادع إلى سبيل ربك بالحكمة والموعظة الحسنة وجادلهم بالتي هي أحسن إن ربك هو أعلم بمن ضل عن سبيله وهو أعلم بالمهتدين)
+MuRIL,cross,FP false alarm,0,1,0.5412784814834595,0.083,0,45,,,"@amar1301 @DChaurasia2312 Jara zazia tax ko explains karenge ki ye kya hota hai ?  
+Jara history padhiye, aur pata kijiye ki kitne hindu k mandiro ko toda gaya tha.. .  
+Gyan aapko dhela bhar ka bhi nahi hai, aur whatsapp University se padh k yahan gyan pelne chale aaye..."
+MuRIL,cross,FP false alarm,0,1,0.5008636116981506,0.002,1,49,,,"@AskAnshul When innumerable ""TEMPLES "" we're AND are destroyed and Devastated by some people, They NEVER and EVER felt anything till now, They have a feeling that other religion people have no faith or sence 
+Today by hearing FAKE news about their prying place, look what all they are doing"
+MuRIL,cross,FP false alarm,0,1,0.5764451026916504,0.153,0,50,,,@Sunilsh32640883 @myogiadityanath india me kam se kam kayi crore vaccine lagwa chukey hai aur uskey baawajud sanko corona kaise horaha hai yeh sab kya china se kharidkar laay hai 2 saal se naatak chal raha hai jab 2019 end me aaya tha to samajh me aaya ki virus hai lekin saal ke bad bhi???
+MuRIL,cross,FP false alarm,0,1,0.7397580146789551,0.48,0,50,,,"@geertwilderspvv you judging a case by your time and there big deference between now and 1443 years ago:
+1/women grow faster in hot area's than cold one 
+2/life time was short lucky people live for 55 so you need to have faster circle of life and death or you tribe will vanish"
+MuRIL,cross,FP false alarm,0,1,0.6398187875747681,0.28,0,13,,,@anuragteddy Ye log hi Modi ko bhagwan mante the aur Hazare ko dusra Gandhi
+MuRIL,cross,FP false alarm,0,1,0.7166106104850769,0.433,0,37,,,"@_sayema Those who disbelieve in our verses we'll drive them into a fire. 4:56
+
+Polytheists are the worst of creatures. 98:6
+
+Men are in charge of women by right of what I have granted one over the other. 4:34
+
+उमर भर बेचारी सायमा यही भूल करती रही
+धूल चहेरे पर थी, आइना साफ करती रही
+
+WDTT"
+MuRIL,cross,FP false alarm,0,1,0.6075558066368103,0.215,0,15,,,@Diganta81339790 @myogiadityanath Aap gyan bhi utna hi gram dewe jitne saal BJP sarkaar rahi hai central me
+MuRIL,cross,FP false alarm,0,1,0.7360156774520874,0.472,3,56,,,@NooriKhanINC @khanumarfa Accha ji pehle yeh batao muslim aye kahan se or nafrat k beej  kis muslim ne boa tha yaad dilata hoin  sindh pr attack kis muslim n kiya tha or mandir or murtiya kisne tode the or krishan k mandir mathura m kisne tode the or nizzam k pithu ne patel ko dhamki kya de the
+MuRIL,cross,FP false alarm,0,1,0.7780932784080505,0.556,0,38,,,@abhishekvns178 @ReallySwara Are bbai hinfu sirf india and nepal me muslim pura word me h aur aane wale din me bahut sa hindu musalman ban jayega aur av v ban hi rha h q ki islam sabse achcha dharam h
+MuRIL,cross,FP false alarm,0,1,0.7597706317901611,0.52,0,49,,,@grass22221111 @Kohli4ever So wht...kohli ki jo form hai ab usko team se b bahar karna chaiye..rahane bahar ho sakta hai to kohli kyun nhi...ranji khele practice kRe fr aye..kohli koi bagwan nhi...aaj tak kuch jeet nhi paya ...aur usko captain banao..toss jeeta nhi jata usse
+MuRIL,cross,FP false alarm,0,1,0.8180794715881348,0.636,0,13,,,@shantanunandan2 This shows that you are colonized mind .hing is mentioned Manasollasa  sanskrit text
+MuRIL,cross,FP false alarm,0,1,0.8319631814956665,0.664,0,30,,,"@pakistan_untold Jitne musalman pakistan me hai..us se zyaada Hindustan me roz hinduon ke beech me namaaz padhte hai. Yahan Sajda kiya jaata hai,Majda aap hi haasil ho jaata hai."
+MuRIL,cross,FP false alarm,0,1,0.7644601464271545,0.529,1,41,,,@manojmuntashir Check Your knowledge in history i think u have read rss history thats the resons u r spreading hate and violennce by dividing emperors in to their religion and caste..really u kind of people saying like this just for publicity
+MuRIL,cross,TN correct not-hate,0,0,0.185865432024002,0.628,0,48,,,@geertwilderspvv I am a muslim girl and I am proud of being a muslis.If being a muslim we don't have any problem then what's your https://t.co/y4964JOhPi would you feel if I critisize your prophet?but I am a muslim and I am not taught to do so.
+MuRIL,cross,TN correct not-hate,0,0,0.178459957242012,0.643,0,0,,,@DChaurasia2312 जय भारत कृष्णकांत  🇮🇳 https://t.co/vrnQe3vPNT
+MuRIL,cross,TN correct not-hate,0,0,0.1885590255260467,0.623,1,46,,,@khanumarfa India is a miracle country. A person accused of sabotage the middle East RAW network can be awarded with post of vice President that too twice. A mother and son duo accused of 5000 crs national herald scam are designated as president of oldest grand political party...
+MuRIL,cross,TN correct not-hate,0,0,0.184734433889389,0.631,0,9,,,@KapilMishra_IND Aane wale dino mein aap ... DELHI KE CM BANOGE....
+MuRIL,cross,TN correct not-hate,0,0,0.1848607808351516,0.63,1,38,,,"@AskAnshul Why fake Tripura ( Bangladesh pics ) issue triggered communal riots in #Maharashtra , why not in other states ? When regular offenders sayad Nuri given Fatwa for band overnighted by LIU , @OfficeofUT #UddhavThackeray #mahaagadi . Was it appeasing politics of dying ally #Congress"
+MuRIL,cross,TN correct not-hate,0,0,0.1769820153713226,0.646,0,14,,,@derekobrienmp Wishing you a very speedy recovery Sir. Have to fight a long battle ahead.
+MuRIL,cross,TN correct not-hate,0,0,0.1752590537071228,0.649,0,0,,,@DChaurasia2312 जय भारत रामवीर व 5 मित्र  🇮🇳 https://t.co/qHPyjhagcP
+MuRIL,cross,TN correct not-hate,0,0,0.1770138889551162,0.646,0,7,,,"@tanyamidhaa BCCI is run by BJP 
+Unknown fact"
+MuRIL,cross,TN correct not-hate,0,0,0.1763909310102462,0.647,0,0,,,@PragathShukla @naveenjindalbjp 🤪🤪 https://t.co/6cMoYj4Xa8
+MuRIL,cross,TN correct not-hate,0,0,0.1767805814743042,0.646,0,19,,,@mahuadey20 He only said he is not his friend. Without meeting talking and knowing how can two people become friends.
+MuRIL,cross,TN correct not-hate,0,0,0.1745388358831405,0.651,0,9,,,"@Indic_7 @AskAnshul Jihads with akm, m416,scarl,m762. : HOLD MY BEER."
+MuRIL,cross,TN correct not-hate,0,0,0.1738203167915344,0.652,0,1,,,@mahuadey20 True..
+MuRIL,cross,TN correct not-hate,0,0,0.1742552667856216,0.651,2,15,,,@NooriKhanINC @khanumarfa Excuse me madam kangana ne kb hate failayi muslims ke khilaf can you shown me
+MuRIL,cross,TN correct not-hate,0,0,0.1744720786809921,0.651,0,26,,,@Dhiraz_mehta Aaray yr isko protection daa raha ho phir dam ha toh without protection rakho phir dakho one women with head next day ki trending news hogi
+MuRIL,cross,TN correct not-hate,0,0,0.1743396371603012,0.651,0,36,,,"Going by this trend, @iitbombay will invite Suresh Chavhanke, Yati Narsinghanand and Shambulal Regar for next year’s event. And we will continue to act surprised when the next Ram Nagesh Akubathini comes out of this college. https://t.co/obX24bwm9v"
+MuRIL,cross,TP caught hate,1,1,0.6667770743370056,0.334,0,53,,,"@Vitthal_Teedi Shariyat ka her faisa tumahre aqal se bahr hai q ki tum log wo chz kbhi nhi apna sakte jisme insaaf, pakezgi, adabgi ho.. Phle Islam pr research karo ache se phir baat rakho.. R tumhare aqale sahi hoti to Modi anpad nhi koyi r PM hota r desh ka economy nhi gerte.."
+MuRIL,cross,TP caught hate,1,1,0.6049378514289856,0.21,1,24,,,@shantanuadv0009 Aur tera dharam toh dekh kya sikhata hai ghu khana bhakto ko aur muslim ki mob linching aukat mai Rah samjha ghu khane wale
+MuRIL,cross,TP caught hate,1,1,0.6626647710800171,0.325,0,31,,,"@rashtrapatibhvn Talwa chatne waali ko Padma sri , or gulaami krne walo ko rajya sabha ka seat or Kuch na krne waalo ko CBI, ED &amp; IT ke raids . Ye hai BJP sarkaar"
+MuRIL,cross,TP caught hate,1,1,0.6258546113967896,0.252,0,11,,,"@ArbaazTheGreat1 @ReallySwara why not.. unko bolo yaha Hyderabad mein KCR banwadegaa.. ""Barbar"" masjid... మేం చేస్తాం బడిత పూజ అడిగేవాడికి,ఇచ్చే వాడికి.."
+MuRIL,cross,TP caught hate,1,1,0.5399995446205139,0.08,2,21,,,@saffronmonk2017 @myogiadityanath Abhe pagal insaan sabse zyada corona tau UP mai hi hai or sabse ghatiya health care bhi UP mai hi hai..
+MuRIL,cross,TP caught hate,1,1,0.7798287272453308,0.56,0,43,,,"@bismay_inc @NSaina JO KISAN KA NAHI WO HINDUSTAN KA NAHI.
+
+FEKU K PILLEY ANAJ NAHI KHATEY WO TO FEKU KA YELLOW JUICE PITEY HAIN
+
+BJP Ney  #Kisan #Jaat #gurjar #brahmins #punjabi #dalit Ka g...d mar dia
+
+#Hindu #UttarPradeshElections2022  #banaras #Uttrakhand  #BJP_Goondas_Party #Farmerprotest"
+MuRIL,cross,TP caught hate,1,1,0.7457665205001831,0.492,0,30,,,"@Go_Movie_Mango HinduGods, They could not save themselves, Shiva murdered his son, Ganesha, they could not identify their own relationship. Krishna, Arjuna mass murered 1.66billion hindus single war, Kurukshetra all in 18days"
+MuRIL,cross,TP caught hate,1,1,0.7282474637031555,0.456,0,37,,,"@akhil0508 @mohinii6669 Jaago hindu Jago yaar Apne bacho ko padai
+Likhai karao kab tak netao ke piche bhaag kar Hindu ,Muslim me ladoge , Tumhra bacha Bagair pade BCCI ka Chairman nhi ban skta bhai islye smjh kar kaam karo 🙂"
+MuRIL,cross,TP caught hate,1,1,0.7602289915084839,0.52,0,32,,,"HINDUS &amp; HINDU CULTURE SURVIVED
+@ 500 YEARS OF MUSLIM RULE
+
+BUT 7 YEARS OF BJP RULE
+@ HINDUS AT RISK WORLD WIDE
+
+TALIBAN
+@ DESTRUCTION OF BUDDHA STATUES
+
+BJP
+@ DESTRUCTION OF MOSQUE
+
+WHAT IS DIFFERENCE??
+
+#Ayodhya https://t.co/1H2nCzIRYQ"
+MuRIL,cross,TP caught hate,1,1,0.7148222923278809,0.43,0,10,,,@TyagiUrmi @AskAnshul Hindu girls aware Nhi h inn thullo k bare me
+MuRIL,cross,TP caught hate,1,1,0.8404228687286377,0.681,1,42,,,"@jakariya5032 @shantanuadv0009 RSS wale tum log ke baap hai.
+Pair chuo abbu ke oo sorry mai to bhul hi gya ki tumlog use pujte ho jisne satta ke liye apne baap ko hi bandi bana liya aur apne bhaiyo ko mar dala(chutiya aurangjeb)."
+MuRIL,cross,TP caught hate,1,1,0.8139937520027161,0.628,0,22,,,@Pooja33617930 @KapilMishra_IND Ye khiladi jat h or ye Hindutava ko nhi mante Hinduism mante h hmare bacho ki photo ka miss use mat kro
+MuRIL,cross,TP caught hate,1,1,0.8331778645515442,0.666,1,13,,,@NSaina Really hate it when she is made to tweet by the IT cell  😒
+MuRIL,cross,TP caught hate,1,1,0.8213788270950317,0.643,1,57,,,"@AskAnshul Every word that kk menon said in shauryas ending speech is what we need. 
+RSS is the ideology to follow. 
+Ye sab muslim ek jaise ni hote, kuch ache b hote hai, blah blah blah..
+Ye sb bkws, ye sb sale end mein jake 72 pig hoors hi mangte hai chahe kisi ko mar k kyun na mile."
+MuRIL,cross,TP caught hate,1,1,0.8011666536331177,0.602,0,43,,,"@jaysusri1 @NSaina JO KISAN KA NAHI WO HINDUSTAN KA NAHI.
+
+FEKU K PILLEY ANAJ NAHI KHATEY WO TO FEKU KA YELLOW JUICE PITEY HAIN
+
+BJP Ney  #Kisan #Jaat #gurjar #brahmins #punjabi #dalit Ka g...d mar dia
+
+#Hindu #UttarPradeshElections2022  #banaras #Uttrakhand  #BJP_Goondas_Party #Farmerprotest"
+IndicBERT v1,cross,FN missed hate,1,0,0.3205606937408447,0.359,0,28,,,"@nhipighlunga @RanaAyyub Usme to himat thi isme himat nhi hai us ke against likhegi to Washington post nikal dega 
+Aaur taliban ke against to yha ke talabani sympathiser maar dengey"
+IndicBERT v1,cross,FN missed hate,1,0,0.3993712365627289,0.201,0,9,,,"@mrGlassHfEmpty @pakistan_untold Namaz Means Sodomy,They Invite Allah To Do Anal."
+IndicBERT v1,cross,FN missed hate,1,0,0.4522738754749298,0.095,1,42,,,"Things are changing very fast now. Hindutva perverts, supported by their khaki wearing bodyguards, are threatening to desecrate Mathura mosque with filthy dolls. 
+Muslims need to unite &amp; come on a single platform asap to plan for future course of action.
+
+#WakeUpForMathuraMasjid"
+IndicBERT v1,cross,FN missed hate,1,0,0.3232349455356598,0.354,0,17,,,@ShivamJ24 @NSaina chal bhncho...teri maa bata ke gayi na tujhe jo itne confidence se gapp maar raha hai
+IndicBERT v1,cross,FN missed hate,1,0,0.3251998126506805,0.35,0,32,,,"@geertwilderspvv Totally Agreed with your statement. #NupurSharma No media is showing what she has said. She has quoted only which was written in that community books.
+Why no media is raising this question??"
+IndicBERT v1,cross,FN missed hate,1,0,0.3124772012233734,0.375,0,8,,,@MikeKGilmore @RyanM58699717 and they DESERVE to be SUED into OBLIVION.
+IndicBERT v1,cross,FN missed hate,1,0,0.3042804896831512,0.391,0,10,,,"@NooriKhanINC You are from INC , you're comments doesn't matter"
+IndicBERT v1,cross,FN missed hate,1,0,0.3062941133975982,0.387,0,14,,,#झुक_हंसराज_तुझे_रोजगार_दूं.Dis tatti guy deserve dis😂😂😂😂😂😂. Keep going guys...Ussko isski shi place dekha do https://t.co/pTUhSObTNj
+IndicBERT v1,cross,FN missed hate,1,0,0.3123001158237457,0.375,0,33,,,"@ReallySwara Woh Mandir nahi sarkar banana chahte hai.
+Desh main kite jahil hai phir aazmana chahte hai
+Tum Zameen Ke Faisle Main Khushiyan Manao..
+Hum Asmaan ke Faisle Ka Intzar karte Hai...
+#6december #BabriMasjid https://t.co/Iqugx623vt"
+IndicBERT v1,cross,FN missed hate,1,0,0.3074328303337097,0.385,0,16,,,@Rahul1296603811 First of all no car was being attacked agar attacking ki koi video h toh dikhaao.
+IndicBERT v1,cross,FN missed hate,1,0,0.2958389818668365,0.408,0,0,,,@Joydas @NSaina 😂
+IndicBERT v1,cross,FN missed hate,1,0,0.3000563681125641,0.4,0,1,,,@babitabadaikbjp @myogiadityanath Never!
+IndicBERT v1,cross,FN missed hate,1,0,0.3013496100902557,0.397,0,10,,,@shashank_ssj @ReallySwara Iske paas bhi toh gayan hona dene ke liye. #swarasooar
+IndicBERT v1,cross,FN missed hate,1,0,0.2967301905155182,0.407,0,3,,,@Peace_Nirvana1 @ANI Halla na sulla
+IndicBERT v1,cross,FN missed hate,1,0,0.2971895933151245,0.406,0,1,,,@Bipinkrfan @rashtrapatibhvn ❤️da
+IndicBERT v1,cross,FP false alarm,0,1,0.5007741451263428,0.002,2,25,,,"@Go_Movie_Mango Babri masjid demolition has a big shame of our secular country.
+Attack on Babri Masjid was an Attack on India Secularism, Constitution, Fraternity and Judiciary!"
+IndicBERT v1,cross,FP false alarm,0,1,0.5270310044288635,0.054,0,48,,,"@geertwilderspvv @NupurSharmaBJP Thnks for ur support @geertwilderspvv 
+Hadiits ..Marriage Tales or Co(k-Tales
+Sunan an-Nasa'i 3378
+
+It was narrated that 'Aishah said:
+
+""The Messenger of Allah married me when I was six, and consummated the marriage with me when I was nine, and I used to play with dolls."" https://t.co/175H7i8M0U"
+IndicBERT v1,cross,FP false alarm,0,1,0.5227019786834717,0.045,1,24,,,@NSaina Kisne attack kiya re...?? Punjab ki apaman nhi sahega Hindustan... Jo PM ke gaadi ke close gaye wo toh BJP ka flag leke gaye...
+IndicBERT v1,cross,FP false alarm,0,1,0.5029823780059814,0.006,0,16,,,"@ManasKSinha @ARanganathan72 er, buddha was a hindu.
+
+buddhism is a strand, like jainism, as isms tend to be."
+IndicBERT v1,cross,FP false alarm,0,1,0.5146871209144592,0.029,0,40,,,"@ARanganathan72 As Indians, our generation should be proud of honouring our ancestors who did supreme sacrifices for saving #Hinduism in the Mughal region.Thanks to #Hindus who made it possible through voting rights.
+""We are the democracy""🇮🇳
+#Democracy
+#Varanasi
+#KashiVishwanathCorridor
+#PMModi"
+IndicBERT v1,cross,FP false alarm,0,1,0.5400952100753784,0.08,0,45,,,"@MediaHindustani @ReallySwara Ha ha ha... 
+
+Jaago hindustani media...
+Wo kehne ke baad SC ne kya kuch nahi kaha sabka update karlo fir tweet karna. Jaago, hum 21st century me pounchgaye he.😆
+
+Warna 7 saal ka Modi ji ke mehnat ek tweet se Hindustani Media ko badnam karsakta he.🤦‍♂️"
+IndicBERT v1,cross,FP false alarm,0,1,0.5689116716384888,0.138,1,44,,,"@Go_Movie_Mango If really muslims demolished, your temples and killing 1000 of devotees, If it's really happend you will also be a Muslim. But unfortunately muslims never Do. Mughals have the power khilji have the power we rule 800ys but mostly hindus have majority today why?"
+IndicBERT v1,cross,FP false alarm,0,1,0.5869805812835693,0.174,1,35,,,"@afzalqasmi85 @KapilMishra_IND Sanatana Dharma is what ppl call Hinduism , where it's the way of life.
+
+Hindutva is the one that opposes HinduPhobia .
+
+Hindutva never teaches to attack anyone , but definitely teaches to retaliate against the attackers !"
+IndicBERT v1,cross,FP false alarm,0,1,0.5402951836585999,0.081,0,46,,,"@geertwilderspvv Before Saying Something,Do some research Aboutwhom you Aretalking.Prophet Muhammad PBUH BeingTheBestOf Creation Of The Creator Almighty Allah.
+There is a list of 100most influential Human On Earth,And Prophet Muhammad PBUH Is On Top.and guess what This List is done by A chirstian"
+IndicBERT v1,cross,FP false alarm,0,1,0.5749444961547852,0.15,1,54,,,"@geertwilderspvv Beware, you are the one who is afraid, because we do not fear the blame of the blamer. Prophet of God Muhammad, He came with a religion that taught you a lot. You are too servile to look at you. But we speak with our hearts in which our love for our Prophet Muhammad"
+IndicBERT v1,cross,FP false alarm,0,1,0.6207928657531738,0.242,0,53,,,"@ARanganathan72 We as majority Hindus in this sacred nation,had stood and watched the destruction done by the invaders time n again,we named our roads,districts after them,this mentality was the reason that left laughs at us n we endured that too..at last deep slumber has come to an end.Awaken!"
+IndicBERT v1,cross,FP false alarm,0,1,0.799068033695221,0.598,0,54,,,@prashant_asct @KapilMishra_IND Dusro ka chhoro modi ji ko bacha lo .... Agla P.M ki kursi to gayi... Log dangaai party ko samajh chuki.. har jagah se lathara ja raha hai dhire dhire bas U.P bachi hai...pata nahi kab kurshi ke chaar me se aakhri pahiya bacha hai . Baghwan bachaye inko girne . Galat ka 7 =galat
+IndicBERT v1,cross,FP false alarm,0,1,0.7299741506576538,0.46,0,40,,,"@afzalqasmi85 @KapilMishra_IND Due to tolerance , non Retaliation behaviour,
+
+Pagans lost their land in East 
+Hindus/Buddhists lost their land in Afghanistan, Indonesia,Iran etc 
+Tribes lost their land in West 
+
+Hindus in India became slaves/victims of British, Islamic invaders , Christian missionaries"
+IndicBERT v1,cross,FP false alarm,0,1,0.6293447613716125,0.259,0,50,,,@Sunilsh32640883 @myogiadityanath india me kam se kam kayi crore vaccine lagwa chukey hai aur uskey baawajud sanko corona kaise horaha hai yeh sab kya china se kharidkar laay hai 2 saal se naatak chal raha hai jab 2019 end me aaya tha to samajh me aaya ki virus hai lekin saal ke bad bhi???
+IndicBERT v1,cross,FP false alarm,0,1,0.6603007912635803,0.321,0,14,,,"@lolsaalam @AskAnshul Kyu??
+
+Aisa kabhi kisi hindu ne kisi hindu ladki ke saath nahi kiya kya??"
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3213494420051574,0.357,0,42,,,"Hugely disappointing that the @BLACKCAPS tour to Pakistan is abandoned. @TheRealPCB has worked so hard in such challenging times to bring cricket back to the homeland, this is a crushing blow to Pakistan's cricket fans, and will surely impact future incoming tours
+#PAKvNZ"
+IndicBERT v1,cross,TN correct not-hate,0,0,0.323456346988678,0.353,0,17,,,@wicked_asr @ReallySwara Good...Good that you have the list of all those temples. Do you believe in Indian constitution?
+IndicBERT v1,cross,TN correct not-hate,0,0,0.439159095287323,0.122,0,14,,,@Vitthal_Teedi Taliban freed Afghanistan from foriegn forces. For 20 years u were happy am I right.
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3548530042171478,0.29,0,37,,,"@PaulNuki The original virus should have been named Xi, with variants called Xi-1, Xi-2.... going up to as many numbers as possible. It's's only fair to remember the man who helped it spread around the world."
+IndicBERT v1,cross,TN correct not-hate,0,0,0.4178617596626282,0.164,0,0,,,"@TenguriyaDeepak @irfhabib चोर, उच्चकों को सर पर  बैठना ही आत्म पतन है |"
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3014945983886719,0.397,0,5,,,@ramasingh_ @alanwilkins22 @BLACKCAPS @TheRealPCB Look who’s saying this!
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3022973537445068,0.395,1,13,,,@spellbinder66 @TheZaiduLeaks Babar ii 2016 main launch huwa hai... Aap ki media sirf jhoot filati hai https://t.co/hfAxpcwwA5
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3170267045497894,0.366,0,17,,,"@Minakshishriyan @KapilMishra_IND Agar ap kalam ho to hum buddh hain 
+Agar ap kasab ho to hum sakshat rudra hain"
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3073853850364685,0.385,0,21,,,"@Manish_117 @AskAnshul Spot on. This is just the tip of the iceberg - https://t.co/5Jn4KY0gYJ keep sharing and spreading knowledge widely, thank you. #india #indian #bharat 👏🙌👏🕉 🙏 🔥🔥"
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3153025805950165,0.369,0,14,,,@derekobrienmp @poornibv Get well soon Derek.  Your Bornvita quizzes are an indelible part of my childhood.
+IndicBERT v1,cross,TN correct not-hate,0,0,0.2957911491394043,0.408,0,2,,,@abhi_ishere Thx A
+IndicBERT v1,cross,TN correct not-hate,0,0,0.2963980436325073,0.407,0,2,,,@S_k_chaudhary Thx S
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3007911741733551,0.398,0,3,,,@ujjwal1712 @SRKian_Arijit @iamsrk Arijit SRKian rn 😂 https://t.co/kZC3lKNbWB
+IndicBERT v1,cross,TN correct not-hate,0,0,0.2986598610877991,0.403,0,4,,,@derekobrienmp Get well soon @derekobrienmp sir 🙏🙏
+IndicBERT v1,cross,TN correct not-hate,0,0,0.3004887700080871,0.399,0,4,,,"@YoursSahil #ShauryaDiwas #शौर्य_दिवस 
+Jay Shree Ram 🚩 https://t.co/dQHveN2a2v"
+IndicBERT v1,cross,TP caught hate,1,1,0.529787003993988,0.06,0,40,,,"@_sayema Honestly, he is just commenting on historical characters. These characters did commit attrocities against Hindus. That's the truth. No one says that the present Muslim community is complicit in these crimes. But constantly denying it just creates more divisions."
+IndicBERT v1,cross,TP caught hate,1,1,0.5113770961761475,0.023,0,46,,,"@irenaakbar Hiding behind the victim card won’t hide the bitter truth. Why are Muslims in turmoil, throughout the world, whether it is in India, Afghanistan, Pakistan, Iran, Iraq, Syria, Somalia, Nigeria &amp; many many more countries? Time to introspect, not to point fingers at everyone else!"
+IndicBERT v1,cross,TP caught hate,1,1,0.5251584649085999,0.05,0,45,,,"@pramitheus @NSaina Sid language and attitude are same as most of the Sharia-Bolshevik.
+They worship Karl Mark who raped his maid ,but kept denied.
+They worship Che who killed thousands and hated Gay and kept them in concentration camp.
+Also Periyar who was abusive.
+No surprise"
+IndicBERT v1,cross,TP caught hate,1,1,0.5209155082702637,0.042,0,22,,,"@OpIndia_com Ek muslim.. bake Hindu Taliban...
+
+Ek Admi pe kitne log zor laga rahe hai....
+Sab ko mard banne ka muaka mil Gaya https://t.co/TsUwBSOV2e"
+IndicBERT v1,cross,TP caught hate,1,1,0.5132489800453186,0.026,0,30,,,"@m_devrari @LadyVelvet_HFQ Hindu hijack public places, they build countless illegal mandir Roadside of public land, they put stone un the night any places and telling people that god appeared, making peoples fool."
+IndicBERT v1,cross,TP caught hate,1,1,0.6197351813316345,0.239,0,46,,,"@abdlh_che @naveenjindalbjp @DelhiPolice @CPDelhi @LtGovDelhi Ashamed on you and whole your family and your relatives your the curse on the earth, you have shown enmity to the entire world. accept your blunder infront of the world, shameful deed can destroy your's monochrome of Hindus to the world 🦧🦧🦧🦧think about that"
+IndicBERT v1,cross,TP caught hate,1,1,0.5584779381752014,0.117,0,36,,,"@AbhayPundir30 @AskAnshul Propaganda is real too. If Hindu Muslim unity happens, how will the BJP survive? That's why they target inter-religious couples. But remember, the more you divide, the more they multiply. Be ready for it!"
+IndicBERT v1,cross,TP caught hate,1,1,0.6083385944366455,0.217,0,44,,,"@developah1 @MajorPoonia Ready for discussion? Lets c tht bigot forced sharia on a population whr muslims were minority. Baki temples jane do. Gyanvapi ki pic dekh k btao ""zinda pir"" kehne k layak tha wo?tm jaise bigot ki wajah se modi k supporters badhte rhenge"
+IndicBERT v1,cross,TP caught hate,1,1,0.6002557873725891,0.201,1,49,,,@proudjihadi786 @total_woke_ Hindus bolege to bum bum bhole tumhare jaise log bum bum bolege to sab bhaag jayege lagega bomb kisi ne fak diya ha 🤣🤣 tumhare jaise musalman nhi hone chahiye desh ma bahot se ache musalman ha abdul kalam jaise bano yha terrorism mat karo phir aukad dikha diya jayega
+IndicBERT v1,cross,TP caught hate,1,1,0.5707154870033264,0.141,0,40,,,"@LadyVelvet_HFQ One day Inshallah will come to us too, when the Muslim will rule the whole world Amin
+Like today we are being played with our religion, tomorrow beta be ready while on the road went around saving your god... Inshallah
+￼"
+IndicBERT v1,cross,TP caught hate,1,1,0.8464465737342834,0.693,0,57,,,"@shantanuadv0009 Ram ne tna Prem Sita maa se kiya to Phir V Use Aag mein Q baithaya?,, Krishna ne Q 16k ladhiyo se sahdi kiya?,, Mohammad ne Choti bachi se shadi Q kiya?,,.  Sab ka Ans use Jagah se, Pyar se padh ke samaj ke dekho,, Har ans acha milega.. Kisi ko niche girane ke liye mat sikho."
+IndicBERT v1,cross,TP caught hate,1,1,0.736204206943512,0.472,0,54,,,@Dhiraz_mehta beta jaake usse puch bechari apne aap ko kosh rahi hain ki usne yeh kya kiya or tu ghuffaputra hain ghuffa ka gyaan mat fella naari tab naari hoti hain jab sab ko saath leke chalne ki sochti hain yeh to abaagin naari hain jisne puri duniya mein india ki naak katwa di..ghuffaputra
+IndicBERT v1,cross,TP caught hate,1,1,0.8212648034095764,0.643,0,38,,,@abhishekvns178 @ReallySwara Jabardasti kisi ko convert krna achi baat nhi lekin ajjkal kon kisi ko jabardasti ya force krke muslim bna rahe he fir bhi to fastest growing religion Islam hi he india me mughlo se pehle bhi muslims the
+IndicBERT v1,cross,TP caught hate,1,1,0.8013933897018433,0.603,0,54,,,"@RukhIamshah #WeStandWithNashedi
+Aryan ki koi glti nhi hai.. NCB ne bewajah hi use giraftar kar liya h. NCB ne mijhe bhi pta nhi kyu 5 dino se arrest kiya hai... Mai aryan khan se just side waale lockup me hu. Aryan k pas koi drugs nhi tha.. blki mujhe apni khaini share krni padi uske saath😢"
+IndicBERT v1,cross,TP caught hate,1,1,0.7511036396026611,0.502,0,55,,,@bvprasadreddy @geertwilderspvv @NupurSharmaBJP How can  u say poor muslims are not maring this early ...if a hindu marries this early then it's agaisnt law ..but a muslims girl can get married at age of 9 today also becuase that what their religion is about and it's in their sharia or personal law..so first check facts plz

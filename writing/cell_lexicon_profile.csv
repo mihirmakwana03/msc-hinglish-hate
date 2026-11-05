@@ -1,0 +1,33 @@
+model,split,cell,n,mean_lex_hits,pct_zero_lex
+TF-IDF + LogReg,within,FN missed hate,140,1.14,7.9
+TF-IDF + LogReg,within,FP false alarm,168,1.48,2.4
+TF-IDF + LogReg,within,TN correct not-hate,415,1.02,13.7
+TF-IDF + LogReg,within,TP caught hate,192,1.72,0.5
+XLM-RoBERTa,within,FN missed hate,155,1.41,6.5
+XLM-RoBERTa,within,FP false alarm,135,1.4,4.4
+XLM-RoBERTa,within,TN correct not-hate,448,1.08,12.3
+XLM-RoBERTa,within,TP caught hate,177,1.53,1.1
+MuRIL,within,FN missed hate,174,1.4,6.3
+MuRIL,within,FP false alarm,104,1.52,0.0
+MuRIL,within,TN correct not-hate,479,1.07,12.7
+MuRIL,within,TP caught hate,158,1.56,0.6
+IndicBERT v1,within,FN missed hate,154,1.4,6.5
+IndicBERT v1,within,FP false alarm,137,1.39,3.6
+IndicBERT v1,within,TN correct not-hate,446,1.08,12.6
+IndicBERT v1,within,TP caught hate,178,1.54,1.1
+TF-IDF + LogReg,cross,FN missed hate,1865,0.13,88.2
+TF-IDF + LogReg,cross,FP false alarm,282,0.59,61.7
+TF-IDF + LogReg,cross,TN correct not-hate,1817,0.06,94.4
+TF-IDF + LogReg,cross,TP caught hate,342,0.73,50.3
+XLM-RoBERTa,cross,FN missed hate,1669,0.17,86.1
+XLM-RoBERTa,cross,FP false alarm,467,0.26,80.5
+XLM-RoBERTa,cross,TN correct not-hate,1632,0.09,92.7
+XLM-RoBERTa,cross,TP caught hate,538,0.41,70.6
+MuRIL,cross,FN missed hate,2118,0.22,82.9
+MuRIL,cross,FP false alarm,31,0.23,83.9
+MuRIL,cross,TN correct not-hate,2068,0.13,90.1
+MuRIL,cross,TP caught hate,89,0.37,68.5
+IndicBERT v1,cross,FN missed hate,2102,0.21,83.1
+IndicBERT v1,cross,FP false alarm,59,0.37,78.0
+IndicBERT v1,cross,TN correct not-hate,2040,0.12,90.3
+IndicBERT v1,cross,TP caught hate,105,0.41,67.6
