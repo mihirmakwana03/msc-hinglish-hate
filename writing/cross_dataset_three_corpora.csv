@@ -1,0 +1,4 @@
+test set,n,hate rate,macro-F1,hate recall,not-hate recall
+Bohra test (within),915,0.363,0.642,0.578,0.712
+HASOC 2021 (cross),4335,0.478,0.439,0.127,0.91
+HASOC 2022 (cross),4306,0.513,0.435,0.155,0.866
