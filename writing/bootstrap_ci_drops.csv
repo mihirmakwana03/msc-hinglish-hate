@@ -1,0 +1,5 @@
+model,within,cross,drop,drop_ci_lo,drop_ci_hi,excludes_zero
+TF-IDF + LogReg,0.6421,0.4351,0.207,0.1721,0.2418,True
+XLM-RoBERTa,0.6526,0.4697,0.1829,0.1476,0.2182,True
+MuRIL,0.6535,0.3673,0.2862,0.253,0.3204,True
+IndicBERT v1,0.6521,0.3712,0.2809,0.2471,0.3133,True

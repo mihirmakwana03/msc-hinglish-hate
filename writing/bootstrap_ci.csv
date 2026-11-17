@@ -1,0 +1,9 @@
+model,split,n,macro_f1,ci_lo,ci_hi
+TF-IDF + LogReg,within,915,0.6421,0.6096,0.6735
+TF-IDF + LogReg,cross,4306,0.4351,0.4206,0.4493
+XLM-RoBERTa,within,915,0.6526,0.6196,0.6844
+XLM-RoBERTa,cross,4306,0.4697,0.4549,0.4841
+MuRIL,within,915,0.6535,0.6218,0.6856
+MuRIL,cross,4306,0.3673,0.3571,0.3786
+IndicBERT v1,within,915,0.6521,0.6193,0.6824
+IndicBERT v1,cross,4306,0.3712,0.36,0.3825
